@@ -34,7 +34,7 @@
             </ul>
 
 
-        <span class="nav__sub-title">Rage147</span>
+        <span class="nav__sub-title">diary</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
