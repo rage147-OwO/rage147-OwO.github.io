@@ -55,7 +55,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "2019 여름 자전거 국토종주" %}
-                        <li><a href="/categories/2019 여름 자전거 국토종주" class="">2019 여름 자전거 국토종주 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/2019 여름 자전거 국토종주" class="">2019 여름 자전거 국토종주 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -70,7 +70,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "C" %}
-                        <li><a href="/categories/C" class="">C (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -85,7 +85,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "애니메이션" %}
-                        <li><a href="/categories/애니메이션" class="">애니메이션 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/애니메이션" class="">애니메이션 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
