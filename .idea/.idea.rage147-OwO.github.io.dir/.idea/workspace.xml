@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87a3ee92-b021-4d2a-90ad-5c4ca6baf0ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.rage147-OwO.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rage147-OwO.github.io.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/etc/2022-12-28.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/etc/2022-12-28.md" afterDir="false" />
-    </list>
+    <list default="true" id="87a3ee92-b021-4d2a-90ad-5c4ca6baf0ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +44,7 @@
       <workItem from="1672189168995" duration="176000" />
       <workItem from="1672201928580" duration="11000" />
       <workItem from="1672202052977" duration="2533000" />
+      <workItem from="1672216066667" duration="232000" />
     </task>
     <servers />
   </component>
