@@ -23,29 +23,118 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
-
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "그래프" %}
-                        <li><a href="/categories/그래프" class="">그래프({{category[1].size}})</a></li>
+                        <li><a href="/categories/그래프" class="">그래프 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-
-
-        <span class="nav__sub-title">diary</span>
-            <ul>
+             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "우동샤프강좌" %}
+                        <li><a href="/categories/우동샤프강좌" class="">우동샤프강좌 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "U#예제" %}
+                        <li><a href="/categories/U#예제" class="">U#예제 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "VRchat" %}
+                        <li><a href="/categories/VRchat" class="">VRchat ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">자전거</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "2019 여름 자전거 국토종주" %}
+                        <li><a href="/categories/2019 여름 자전거 국토종주" class="">2019 여름 자전거 국토종주 (with C++) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "자전거" %}
+                        <li><a href="/categories/자전거" class="">자전거 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">컴공</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "C" %}
+                        <li><a href="/categories/C" class="">C (with C++) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "C++" %}
+                        <li><a href="/categories/C++" class="">C++ ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+         <span class="nav__sub-title">취미</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "애니메이션" %}
+                        <li><a href="/categories/애니메이션" class="">애니메이션 (with C++) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "게임" %}
+                        <li><a href="/categories/게임" class="">게임 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "음악" %}
+                        <li><a href="/categories/음악" class="">음악 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "주식" %}
+                        <li><a href="/categories/주식" class="">주식 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "기타" %}
+                        <li><a href="/categories/기타" class="">기타 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "내돈내산" %}
+                        <li><a href="/categories/내돈내산" class="">내돈내산 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "바이크" %}
+                        <li><a href="/categories/바이크" class="">바이크 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "갬성" %}
+                        <li><a href="/categories/갬성" class="">갬성 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
