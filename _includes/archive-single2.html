@@ -18,9 +18,7 @@
               <a href="{{ post.url }}">{{post.title}}</a>
             </span>
             <small> 
-              {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
-                {%- include page__taxonomy.html -%}
-              {% endif %}
+              {%- include page__taxonomy.html -%}
             </small>
         </div>
       </article>
