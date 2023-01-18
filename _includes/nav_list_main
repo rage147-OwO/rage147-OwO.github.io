@@ -117,8 +117,8 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "USharpExample" %}
-<li><a href="/categories/USharpExample" class="">U＃예제 ({{category[1].size}})</a></li>
+{% if category[0] == "UdonSharpexample" %}
+<li><a href="/categories/UdonSharpexample" class="">우동샤프예제 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
