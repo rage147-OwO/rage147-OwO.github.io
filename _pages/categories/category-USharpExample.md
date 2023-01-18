@@ -1,10 +1,10 @@
 ---
-title: "U-Example"
+title: "USharpExample"
 layout: archive
-permalink: categories/U-Example
+permalink: categories/USharpExample
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories .U-Example %}
+{% assign posts = site.categories .USharpExample %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

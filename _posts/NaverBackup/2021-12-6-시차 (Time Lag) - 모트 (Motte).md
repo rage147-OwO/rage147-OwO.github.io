@@ -37,8 +37,8 @@ categories:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-a0338192-9a26-4bcb-82af-68ed8d94fc5d", "src" : "https://postfiles.pstatic.net/MjAyMTEyMDZfMTcy/MDAxNjM4NzU4NjI0NTI3.NeRWNh9JmNzf6ogOGZ5Tfb1hugX4rHoRWJbiooFYUaYg.wSkACwSs53IEOqVjiOXBVLYlrvGVmKJqT3v5bkBTHH8g.JPEG.dls32208/%EB%AA%A8%ED%8A%B8_%EC%8B%9C%EC%B0%A8.jpg", "originalWidth" : "960", "originalHeight" : "720", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" data-height="519" data-lazy-src="https://postfiles.pstatic.net/MjAyMTEyMDZfMTcy/MDAxNjM4NzU4NjI0NTI3.NeRWNh9JmNzf6ogOGZ5Tfb1hugX4rHoRWJbiooFYUaYg.wSkACwSs53IEOqVjiOXBVLYlrvGVmKJqT3v5bkBTHH8g.JPEG.dls32208/%EB%AA%A8%ED%8A%B8_%EC%8B%9C%EC%B0%A8.jpg?type=w966" data-width="693" src="https://postfiles.pstatic.net/MjAyMTEyMDZfMTcy/MDAxNjM4NzU4NjI0NTI3.NeRWNh9JmNzf6ogOGZ5Tfb1hugX4rHoRWJbiooFYUaYg.wSkACwSs53IEOqVjiOXBVLYlrvGVmKJqT3v5bkBTHH8g.JPEG.dls32208/%EB%AA%A8%ED%8A%B8_%EC%8B%9C%EC%B0%A8.jpg?type=w80_blur">
-</img></a>
+<img alt="" class="se-image-resource" data-height="519" data-lazy-src="https://postfiles.pstatic.net/MjAyMTEyMDZfMTcy/MDAxNjM4NzU4NjI0NTI3.NeRWNh9JmNzf6ogOGZ5Tfb1hugX4rHoRWJbiooFYUaYg.wSkACwSs53IEOqVjiOXBVLYlrvGVmKJqT3v5bkBTHH8g.JPEG.dls32208/%EB%AA%A8%ED%8A%B8_%EC%8B%9C%EC%B0%A8.jpg?type=w966" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-12-6-시차 (Time Lag) - 모트 (Motte)/0.jpg">
+</a>
 </div>
 </div>
 </div>
