@@ -1,5 +1,5 @@
 ---
-title : "Mymoney"
+title: "Mymoney"
 layout: archive
 permalink: categories/Mymoney
 author_profile: true

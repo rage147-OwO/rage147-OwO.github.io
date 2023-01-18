@@ -1,5 +1,5 @@
 ---
-title : "stock"
+title: "stock"
 layout: archive
 permalink: categories/stock
 author_profile: true

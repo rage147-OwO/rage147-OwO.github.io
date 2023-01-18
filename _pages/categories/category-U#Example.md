@@ -1,5 +1,5 @@
 ---
-title : "U#Example"
+title: "U#Example"
 layout: archive
 permalink: categories/U#Example
 author_profile: true

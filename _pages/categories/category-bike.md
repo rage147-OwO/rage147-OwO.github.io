@@ -1,5 +1,5 @@
 ---
-title : "bike"
+title: "bike"
 layout: archive
 permalink: categories/bike
 author_profile: true

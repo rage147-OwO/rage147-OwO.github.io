@@ -1,5 +1,5 @@
 ---
-title : "music"
+title: "music"
 layout: archive
 permalink: categories/music
 author_profile: true

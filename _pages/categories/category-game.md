@@ -1,5 +1,5 @@
 ---
-title : "game"
+title: "game"
 layout: archive
 permalink: categories/game
 author_profile: true

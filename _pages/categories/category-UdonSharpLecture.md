@@ -1,5 +1,5 @@
 ---
-title : "UdonSharpLecture"
+title: "UdonSharpLecture"
 layout: archive
 permalink: categories/UdonSharpLecture
 author_profile: true

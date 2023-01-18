@@ -1,5 +1,5 @@
 ---
-title : "VRCHAT"
+title: "VRCHAT"
 layout: archive
 permalink: categories/VRCHAT
 author_profile: true

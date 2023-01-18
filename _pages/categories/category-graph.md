@@ -1,5 +1,5 @@
 ---
-title : "graph"
+title: "graph"
 layout: archive
 permalink: categories/graph
 author_profile: true

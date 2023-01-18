@@ -1,5 +1,5 @@
 ---
-title : "animatedmovie"
+title: "animatedmovie"
 layout: archive
 permalink: categories/animatedmovie
 author_profile: true
