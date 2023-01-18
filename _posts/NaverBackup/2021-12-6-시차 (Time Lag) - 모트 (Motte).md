@@ -1,5 +1,5 @@
 ---
-title:"시차 (Time Lag) - 모트 (Motte)"
+title: "시차 (Time Lag) - 모트 (Motte)"
 categories:
  - music
 ---

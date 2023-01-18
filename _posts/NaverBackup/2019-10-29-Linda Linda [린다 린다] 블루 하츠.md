@@ -1,5 +1,5 @@
 ---
-title:"Linda Linda [린다 린다] 블루 하츠"
+title: "Linda Linda [린다 린다] 블루 하츠"
 categories:
  - music
 ---

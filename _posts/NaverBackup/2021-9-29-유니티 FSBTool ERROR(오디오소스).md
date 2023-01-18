@@ -1,5 +1,5 @@
 ---
-title:"유니티 FSBTool ERROR(오디오소스)"
+title: "유니티 FSBTool ERROR(오디오소스)"
 categories:
  - VRCHAT
 ---

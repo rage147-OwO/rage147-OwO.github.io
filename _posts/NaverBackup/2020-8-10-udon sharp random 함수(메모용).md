@@ -1,5 +1,5 @@
 ---
-title:"udon sharp random 함수(메모용)"
+title: "udon sharp random 함수(메모용)"
 categories:
  - game
 ---

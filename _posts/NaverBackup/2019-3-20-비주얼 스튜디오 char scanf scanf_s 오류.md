@@ -1,5 +1,5 @@
 ---
-title:"비주얼 스튜디오 char scanf scanf_s 오류"
+title: "비주얼 스튜디오 char scanf scanf_s 오류"
 categories:
  - C
 ---

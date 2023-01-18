@@ -1,5 +1,5 @@
 ---
-title:"C언어 함수(function) 2"
+title: "C언어 함수(function) 2"
 categories:
  - C
 ---
