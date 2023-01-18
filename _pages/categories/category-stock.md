@@ -1,6 +1,7 @@
 ---
 title : "stock"
-layout: archivepermalink: categories/stock
+layout: archive
+permalink: categories/stock
 author_profile: true
 sidebar_main: true
 ---

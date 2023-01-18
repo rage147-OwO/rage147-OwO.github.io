@@ -1,6 +1,7 @@
 ---
 title : "game"
-layout: archivepermalink: categories/game
+layout: archive
+permalink: categories/game
 author_profile: true
 sidebar_main: true
 ---

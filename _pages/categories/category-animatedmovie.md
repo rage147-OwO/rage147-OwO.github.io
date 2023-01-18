@@ -1,6 +1,7 @@
 ---
 title : "animatedmovie"
-layout: archivepermalink: categories/animatedmovie
+layout: archive
+permalink: categories/animatedmovie
 author_profile: true
 sidebar_main: true
 ---

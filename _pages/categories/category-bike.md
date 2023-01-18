@@ -1,6 +1,7 @@
 ---
 title : "bike"
-layout: archivepermalink: categories/bike
+layout: archive
+permalink: categories/bike
 author_profile: true
 sidebar_main: true
 ---

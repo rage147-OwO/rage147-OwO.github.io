@@ -1,6 +1,7 @@
 ---
 title : "VRCHAT"
-layout: archivepermalink: categories/VRCHAT
+layout: archive
+permalink: categories/VRCHAT
 author_profile: true
 sidebar_main: true
 ---

@@ -1,6 +1,7 @@
 ---
 title : "graph"
-layout: archivepermalink: categories/graph
+layout: archive
+permalink: categories/graph
 author_profile: true
 sidebar_main: true
 ---

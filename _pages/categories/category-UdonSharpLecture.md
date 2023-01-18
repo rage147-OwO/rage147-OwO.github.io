@@ -1,6 +1,7 @@
 ---
 title : "UdonSharpLecture"
-layout: archivepermalink: categories/UdonSharpLecture
+layout: archive
+permalink: categories/UdonSharpLecture
 author_profile: true
 sidebar_main: true
 ---

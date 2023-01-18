@@ -1,6 +1,7 @@
 ---
 title : "2019SummerBicycleLandClass"
-layout: archivepermalink: categories/2019SummerBicycleLandClass
+layout: archive
+permalink: categories/2019SummerBicycleLandClass
 author_profile: true
 sidebar_main: true
 ---

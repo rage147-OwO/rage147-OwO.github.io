@@ -1,6 +1,7 @@
 ---
 title : "Mymoney"
-layout: archivepermalink: categories/Mymoney
+layout: archive
+permalink: categories/Mymoney
 author_profile: true
 sidebar_main: true
 ---

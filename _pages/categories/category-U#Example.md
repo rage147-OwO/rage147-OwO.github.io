@@ -1,6 +1,7 @@
 ---
 title : "U#Example"
-layout: archivepermalink: categories/U#Example
+layout: archive
+permalink: categories/U#Example
 author_profile: true
 sidebar_main: true
 ---
