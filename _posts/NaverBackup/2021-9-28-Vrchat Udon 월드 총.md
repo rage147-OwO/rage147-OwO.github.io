@@ -40,13 +40,13 @@ categories:
 <div class="se-file-name-container">
 <span class="se-file-name">TeleportGun</span><span class="se-file-extension">.unitypackage</span>
 </div>
-<a class="se-file-save-button __se_link" data-linkdata='{"link": "https://blogattach.naver.net/099c15a6bdeded311dfc9eab96770a75d1877a9e86/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage"}' data-linktype="file" href="https://blogattach.naver.net/099c15a6bdeded311dfc9eab96770a75d1877a9e86/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage" role="button" target="_blank">
+<a class="se-file-save-button __se_link" data-linkdata='{"link": "https://blogattach.naver.net/099c15a6bdeded311dfc9eab96790b76da887f9893/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage"}' data-linktype="file" href="https://blogattach.naver.net/099c15a6bdeded311dfc9eab96790b76da887f9893/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage" role="button" target="_blank">
 <span class="se-blind">파일 다운로드</span>
 </a>
 </div>
 </div>
 </div>
-<script class="__se_module_data" data-module='{"type":"v2_file", "id" :"SE-fb7be0f3-37af-42c5-a064-62e2707e6343", "data" : { "link": "https://blogattach.naver.net/099c15a6bdeded311dfc9eab96770a75d1877a9e86/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage"}}' type="text/data"></script>
+<script class="__se_module_data" data-module='{"type":"v2_file", "id" :"SE-fb7be0f3-37af-42c5-a064-62e2707e6343", "data" : { "link": "https://blogattach.naver.net/099c15a6bdeded311dfc9eab96790b76da887f9893/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage"}}' type="text/data"></script>
 </div> <div class="se-component se-image se-l-default" id="SE-356ad67f-cc26-43fa-846d-6b5dd93d0bcc">
 <div class="se-component-content se-component-content-fit">
 <div class="se-section se-section-image se-l-default se-section-align-">
