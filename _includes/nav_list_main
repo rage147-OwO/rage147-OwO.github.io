@@ -21,104 +21,120 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "animatedmovie" %}
-<li><a href="/categories/animatedmovie" class="">애니메이션 ({{category[1].size}})</a></li>
+{% if category[0] == "개인프로젝트" %}
+<li><a href="/categories/개인프로젝트" class="">개인프로젝트 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "Cooking" %}
-<li><a href="/categories/Cooking" class="">요리 ({{category[1].size}})</a></li>
+{% if category[0] == "애니메이션" %}
+<li><a href="/categories/애니메이션" class="">애니메이션 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "SummerBicycleLandClass" %}
-<li><a href="/categories/SummerBicycleLandClass" class="">2019 여름 자전거 국토종주 ({{category[1].size}})</a></li>
+{% if category[0] == "요리" %}
+<li><a href="/categories/요리" class="">요리 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "Etc" %}
-<li><a href="/categories/Etc" class="">기타 ({{category[1].size}})</a></li>
+{% if category[0] == "2019 여름 자전거 국토종주" %}
+<li><a href="/categories/2019 여름 자전거 국토종주" class="">2019 여름 자전거 국토종주 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "bike" %}
-<li><a href="/categories/bike" class="">바이크 ({{category[1].size}})</a></li>
+{% if category[0] == "기타" %}
+<li><a href="/categories/기타" class="">기타 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "Mymoney" %}
-<li><a href="/categories/Mymoney" class="">내돈내산 ({{category[1].size}})</a></li>
+{% if category[0] == "바이크" %}
+<li><a href="/categories/바이크" class="">바이크 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "UdonSharpLecture" %}
-<li><a href="/categories/UdonSharpLecture" class="">우동샤프강좌 ({{category[1].size}})</a></li>
+{% if category[0] == "내돈내산" %}
+<li><a href="/categories/내돈내산" class="">내돈내산 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "graph" %}
-<li><a href="/categories/graph" class="">그래프 ({{category[1].size}})</a></li>
+{% if category[0] == "우동샤프강좌" %}
+<li><a href="/categories/우동샤프강좌" class="">우동샤프강좌 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "game" %}
-<li><a href="/categories/game" class="">게임 ({{category[1].size}})</a></li>
+{% if category[0] == "그래프" %}
+<li><a href="/categories/그래프" class="">그래프 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "stock" %}
-<li><a href="/categories/stock" class="">주식 ({{category[1].size}})</a></li>
+{% if category[0] == "게임" %}
+<li><a href="/categories/게임" class="">게임 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "music" %}
-<li><a href="/categories/music" class="">음악 ({{category[1].size}})</a></li>
+{% if category[0] == "주식" %}
+<li><a href="/categories/주식" class="">주식 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "VRCHAT" %}
-<li><a href="/categories/VRCHAT" class="">VRchat ({{category[1].size}})</a></li>
+{% if category[0] == "음악" %}
+<li><a href="/categories/음악" class="">음악 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "UdonSharpexample" %}
-<li><a href="/categories/UdonSharpexample" class="">우동샤프예제 ({{category[1].size}})</a></li>
+{% if category[0] == "VRchat" %}
+<li><a href="/categories/VRchat" class="">VRchat ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "우동샤프예제" %}
+<li><a href="/categories/우동샤프예제" class="">우동샤프예제 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "C++" %}
+<li><a href="/categories/C++" class="">C++ ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -126,7 +142,15 @@
 <ul>
 {% for category in site.categories %}
 {% if category[0] == "C" %}
-<li><a href="/categories/C" class="">C++ ({{category[1].size}})</a></li>
+<li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "자전거" %}
+<li><a href="/categories/자전거" class="">자전거 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>

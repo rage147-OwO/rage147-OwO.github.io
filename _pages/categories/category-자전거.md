@@ -1,10 +1,10 @@
 ---
-title: "VRchat"
+title: "자전거"
 layout: archive
-permalink: categories/VRchat
+permalink: categories/자전거
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories .VRchat %}
+{% assign posts = site.categories .자전거 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
