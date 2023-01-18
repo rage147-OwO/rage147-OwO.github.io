@@ -1,5 +1,5 @@
 ---
-title: c언어 반복문 while, do while
+title:"c언어 반복문 while, do while"
 categories:
  - C
 ---
