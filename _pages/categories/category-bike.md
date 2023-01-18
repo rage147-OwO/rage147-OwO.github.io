@@ -1,10 +1,10 @@
 ---
-title: "그래프"
+title: "bike"
 layout: archive
-permalink: categories/그래프
+permalink: categories/bike
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.그래프 %}
+{% assign posts = site.categories.bike %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

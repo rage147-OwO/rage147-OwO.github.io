@@ -1,7 +1,7 @@
 ---
 title: "Linda Linda [린다 린다] 블루 하츠"
 categories:
- - 음악
+ - music
 ---
 #Linda Linda [린다 린다] 블루 하츠 : 네이버 블로그
 <div class="wrap_rabbit pcol2 _param(1) _postViewArea221692066761" id="post-view221692066761">

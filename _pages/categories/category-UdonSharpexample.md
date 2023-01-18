@@ -1,10 +1,10 @@
 ---
-title: "바이크"
+title: "UdonSharpexample"
 layout: archive
-permalink: categories/바이크
+permalink: categories/UdonSharpexample
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.바이크 %}
+{% assign posts = site.categories.UdonSharpexample %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -1,10 +1,10 @@
 ---
-title: "내돈내산"
+title: "game"
 layout: archive
-permalink: categories/내돈내산
+permalink: categories/game
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.내돈내산 %}
+{% assign posts = site.categories.game %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

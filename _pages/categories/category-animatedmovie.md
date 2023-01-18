@@ -1,10 +1,10 @@
 ---
-title: "기타"
+title: "animatedmovie"
 layout: archive
-permalink: categories/기타
+permalink: categories/animatedmovie
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.기타 %}
+{% assign posts = site.categories.animatedmovie %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

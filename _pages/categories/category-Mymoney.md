@@ -1,10 +1,10 @@
 ---
-title: "C++"
+title: "Mymoney"
 layout: archive
-permalink: categories/C++
+permalink: categories/Mymoney
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.C++ %}
+{% assign posts = site.categories.Mymoney %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

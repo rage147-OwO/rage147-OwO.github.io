@@ -1,10 +1,10 @@
 ---
-title: "자전거"
+title: "SummerBicycleSoup"
 layout: archive
-permalink: categories/자전거
+permalink: categories/SummerBicycleSoup
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.자전거 %}
+{% assign posts = site.categories.SummerBicycleSoup %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

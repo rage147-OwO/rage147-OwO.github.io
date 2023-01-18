@@ -1,10 +1,10 @@
 ---
-title: "주식"
+title: "stock"
 layout: archive
-permalink: categories/주식
+permalink: categories/stock
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.주식 %}
+{% assign posts = site.categories.stock %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
