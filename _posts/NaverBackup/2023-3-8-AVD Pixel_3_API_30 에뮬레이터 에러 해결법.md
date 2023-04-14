@@ -1,40 +1,88 @@
 ---
-title: "AVD Pixel_3_API_30 에뮬레이터 에러 해결법"
+title: "AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법"
 categories:
  - personalproject
 ---
-#AVD Pixel_3_API_30 에뮬레이터 에러 해결법 : 네이버 블로그
-<div class="wrap_rabbit pcol2 _param(1) _postViewArea223038469948" id="post-view223038469948">
-<!-- Rabbit HTML --><div class="se-viewer se-theme-default" lang="ko-KR">
-<!-- SE_DOC_HEADER_END -->
-<div class="se-main-container">
-<div class="se-component se-text se-l-default" id="SE-4309799c-95b0-4d19-80e9-3a2a54acc467">
-<div class="se-component-content">
-<div class="se-section se-section-text se-l-default">
-<div class="se-module se-module-text">
-<!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-52bbf2de-2897-45fe-b776-4ff37592bac8" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-f5318799-ae59-4c6e-a2a8-ab5648992f3c" style="color:#374151;background-color:#f7f7f8;">안녕하세요.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-2f0483b1-5b1d-410b-a22d-bd2c08d995c6" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-c6d8bad7-696f-44a4-b694-eb82d71be062" style="color:#374151;background-color:#f7f7f8;">이번 포스팅에서는 안드로이드 스튜디오에서 AVD(Android Virtual Device)를 실행할 때 발생하는 "Error while waiting for device: The emulator process for AVD Pixel_3_API_30 has terminated" 에러에 대해서 알아보겠습니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-19ac03c1-da89-4d98-935a-323c5efdf9e4" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-491b6a6d-cfbe-41aa-8ccf-6994e3d1d411" style="color:#374151;background-color:#f7f7f8;">이 에러는 AVD를 실행하려고 시도했지만, 에뮬레이터 프로세스가 예기치 않게 종료되어 발생합니다. 대부분의 경우 이 문제는 AVD가 충돌하거나 더 이상 작동하지 않는 상태가 되어 발생합니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-9c4ef739-e873-419b-9ba5-b4484c81749f" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-567d1975-480c-4dc3-847f-4806cf61e603" style="color:#374151;background-color:#f7f7f8;">해결하기 위해서는 몇 가지 단계를 따라야 합니다. 먼저, 안드로이드 스튜디오에서 AVD를 다시 시작하고, 불필요한 프로그램을 모두 종료하고, 컴퓨터를 다시 시작해 볼 수 있습니다. 만약 이러한 단계를 수행했는데도 문제가 해결되지 않는다면, AVD를 다시 생성하거나 이미지를 변경하여 해결할 수 있습니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-6da88d71-2900-4fe1-b0d0-3d14e5f6818d" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-7bbd65b1-5e5f-47ee-b4d8-090f78cb2185" style="color:#374151;background-color:#f7f7f8;">AVD를 다시 생성하는 방법은 다음과 같습니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-0f6cfb61-a797-40f5-9b79-cb8697945a1a" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-8a43de09-18bd-4577-af28-e443184c5a36" style="color:#374151;">​</span></p><ol class="se-text-list se-text-list-type-decimal"><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-53a5757a-d1ce-42cc-af01-c135145b1781" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-2f8a6c3c-2d3c-4cf4-bf78-fb218db181ff" style="color:#374151;background-color:#f7f7f8;">안드로이드 스튜디오를 실행합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-66b588a4-f21d-4347-9192-f9c56c7aac43" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-74bfbc9f-c3c6-4c21-9322-30be78911741" style="color:#374151;background-color:#f7f7f8;">AVD Manager를 엽니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-4f428a81-f40a-4a2a-bdc0-a8e863f30e6d" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-95e8fe98-d845-41ea-967d-c52875538753" style="color:#374151;background-color:#f7f7f8;">Create Virtual Device를 클릭합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-55ae0a54-b485-4fca-8850-ab7e0e1ed936" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-c405995a-8ccf-46fa-b564-56293560cc97" style="color:#374151;background-color:#f7f7f8;">원하는 디바이스를 선택하고, 필요한 시스템 이미지를 선택합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-c646f6cd-79fd-4670-bf37-ffd240a707bc" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-8ac6f6d4-547b-43e3-baa9-5d6c754616c8" style="color:#374151;background-color:#f7f7f8;">AVD 이름을 지정하고, Finish 버튼을 클릭합니다.</span></p></li></ol><p class="se-text-paragraph se-text-paragraph-align-" id="SE-3c1f96c2-64c2-40f0-ab4b-716e65019f07" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-2ff0c36e-c915-43cf-991c-192cd6db36c3" style="color:#374151;background-color:#f7f7f8;">이러한 단계를 수행한 후에도 문제가 해결되지 않으면, 그래픽을 변경하여 해결할 수 있습니다. 이 경우에는 다음과 같은 단계를 따릅니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-2a70b425-8887-481a-8eea-5f2f2229475e" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-0e727656-611e-451e-8108-0eeab5d8446c" style="color:#374151;">​</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-7b0d6d9f-43ed-4c61-9aea-b5519ec00eba" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-3de71afe-4497-4b55-8e08-acb8b39db27a" style="color:#374151;">​</span></p><ol class="se-text-list se-text-list-type-decimal"><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-45986163-a1d0-45e3-8511-680e5c4d2fcc" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-33807601-c30d-4768-86ae-efd9b7afb057" style="color:#374151;background-color:#f7f7f8;">AVD Manager에서 수정하려는 AVD를 선택합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-8a4361be-fbc8-47ec-9138-0a8678677221" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-2e3a5ebe-752b-4a83-a850-38d42d0af10c" style="color:#374151;background-color:#f7f7f8;">Edit 버튼을 클릭합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-4c051c8b-8d42-4861-a213-e4c4d88bed3f" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-1d846317-b5c6-451f-9cb5-02627a5bfbef" style="color:#374151;background-color:#f7f7f8;">Show Advanced Settings를 클릭합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-35b28998-230e-436d-84b8-183702b6432d" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-2eda1f2c-91e9-42f8-a13a-7d5298dbdce8" style="color:#374151;background-color:#f7f7f8;">Emulated Performance 섹션으로 이동합니다.</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-b42eb900-476a-42fd-9af5-e5f9156ec79b" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-0545e709-b80b-41f3-a939-1952e9e25e87" style="color:#374151;background-color:#f7f7f8;">Graphics 옵션을 변경합니다. (예 : Software - GLES 2.0)</span></p></li><li class="se-text-list-item"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-abdae070-1adc-43fd-b79d-daff1d2ed91d" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-30c5d3f7-eb1d-480c-b183-2b837c1c6f6c" style="color:#374151;background-color:#f7f7f8;">Finish 버튼을 클릭합니다.</span></p></li></ol><p class="se-text-paragraph se-text-paragraph-align-" id="SE-ecda3c10-46e3-476b-b86f-4c9b3b20c6b5" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-59f39ce3-e44f-4bb2-954c-b5bdb7c690c6" style="color:#374151;background-color:#f7f7f8;">이제 다시 AVD를 시작하면 정상적으로 실행되어 에러가 발생하지 않을 것입니다.</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-35e3f6b9-b7bc-4446-84bb-9223ce83c827" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-82f13666-d3f8-4737-8802-8c317567e3f2" style="color:#374151;">​</span></p><!-- } SE-TEXT -->
-</div>
-</div>
-</div>
-</div> <div class="se-component se-image se-l-default" id="SE-87586325-582a-419c-a50d-b060af9851a9">
-<div class="se-component-content se-component-content-fit">
-<div class="se-section se-section-image se-l-default se-section-align-">
-<div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-87586325-582a-419c-a50d-b060af9851a9", "src" : "https://postfiles.pstatic.net/MjAyMzAzMDhfMjgx/MDAxNjc4MjU0NDk2MjM0.h4YsF2fnbMli4tUM-ZBWbrv4cmuQ6Rhz6uV7Mf3KJBsg.kPaz49sVv7h6JDxazms82mFeb43saKBgsPyMNZfhEnog.PNG.dls32208/image.png", "originalWidth" : "1321", "originalHeight" : "688", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" data-height="461" data-lazy-src="https://postfiles.pstatic.net/MjAyMzAzMDhfMjgx/MDAxNjc4MjU0NDk2MjM0.h4YsF2fnbMli4tUM-ZBWbrv4cmuQ6Rhz6uV7Mf3KJBsg.kPaz49sVv7h6JDxazms82mFeb43saKBgsPyMNZfhEnog.PNG.dls32208/image.png?type=w773" data-width="886" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2023-3-8-AVD Pixel_3_API_30 에뮬레이터 에러 해결법/0.png">
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="se-component se-text se-l-default" id="SE-c5358362-07f7-4744-b2d8-3fe3fe3c0ed8">
-<div class="se-component-content">
-<div class="se-section se-section-text se-l-default">
-<div class="se-module se-module-text">
-<!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-9c81e335-91ef-4c51-b22b-4d16de2cf875" style=""><span class="se-fs- se-ff- se-style-unset" id="SE-53de0d94-1782-44a6-9b10-0251513fe50e" style="">​</span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-24074ec0-b8fb-4aa9-aacc-e0bbc30889df" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-910671b4-5f3c-4bb9-bbe8-6444c2467d77" style="color:#374151;background-color:#f7f7f8;">그래픽 드라이버가 최신 버전이 아니거나 OpenGL ES 에뮬레이션 초기화가 실패한 경우 에러가 뜹니다</span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-0aba4a07-56c8-4f73-801c-c7f10840779f" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-8146b075-dbe7-4957-be49-f0600ca4ca85" style="color:#374151;">​</span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-82a9a2ce-4beb-4272-9ed7-1b75320da159" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-22f16bc4-27fe-40d0-b563-cd0e6a41bf90" style="color:#374151;background-color:#f7f7f8;">그 외에도 다양한 이유로 에러가 뜰 수 있으니 로그를 참고하세요</span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-5c4a32b0-8933-42c6-be77-4a0c9242ab00" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-c6a77134-4639-44ff-a4a7-63169302e1a5" style="color:#374151;background-color:#f7f7f8;">로그의 경로는 </span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-a7de1ffc-3782-4fe1-8d67-89b2b2c619a3" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-6bcb2a22-bb5f-4063-b496-677ea77dd0fc" style="color:#374151;background-color:#f7f7f8;">C:\Users\사용자\AppData\Local\Google\AndroidStudio버전\log에 </span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-4346ed82-fcb1-4f04-a90d-10dbf82289e4" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-e2ca01bc-4f85-4a4e-8440-445a9f0aec71" style="color:#374151;background-color:#f7f7f8;">log.txt.입니다</span></p><!-- } SE-TEXT --><!-- SE-TEXT { --><p class="se-text-paragraph se-text-paragraph-align-" id="SE-26ff11ca-0441-4f04-8392-30348498f418" style=""><span class="se-fs-fs16 se-ff-system se-style-unset" id="SE-5f17bf0a-727b-46a0-a807-43a21b6536f3" style="color:#374151;">​</span></p><!-- } SE-TEXT -->
-</div>
-</div>
-</div>
-</div> </div>
-</div>
-</div>
+#AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법 : 네이버 블로그
+
+
+
+
+
+
+
+
+안녕하세요.
+
+이번 포스팅에서는 안드로이드 스튜디오에서 AVD(Android Virtual Device)를 실행할 때 발생하는 "Error while waiting for device: The emulator process for AVD Pixel\_3\_API\_30 has terminated" 에러에 대해서 알아보겠습니다.
+
+이 에러는 AVD를 실행하려고 시도했지만, 에뮬레이터 프로세스가 예기치 않게 종료되어 발생합니다. 대부분의 경우 이 문제는 AVD가 충돌하거나 더 이상 작동하지 않는 상태가 되어 발생합니다.
+
+해결하기 위해서는 몇 가지 단계를 따라야 합니다. 먼저, 안드로이드 스튜디오에서 AVD를 다시 시작하고, 불필요한 프로그램을 모두 종료하고, 컴퓨터를 다시 시작해 볼 수 있습니다. 만약 이러한 단계를 수행했는데도 문제가 해결되지 않는다면, AVD를 다시 생성하거나 이미지를 변경하여 해결할 수 있습니다.
+
+AVD를 다시 생성하는 방법은 다음과 같습니다.
+
+​
+
+1. 안드로이드 스튜디오를 실행합니다.
+2. AVD Manager를 엽니다.
+3. Create Virtual Device를 클릭합니다.
+4. 원하는 디바이스를 선택하고, 필요한 시스템 이미지를 선택합니다.
+5. AVD 이름을 지정하고, Finish 버튼을 클릭합니다.
+
+이러한 단계를 수행한 후에도 문제가 해결되지 않으면, 그래픽을 변경하여 해결할 수 있습니다. 이 경우에는 다음과 같은 단계를 따릅니다.
+
+​
+
+​
+
+1. AVD Manager에서 수정하려는 AVD를 선택합니다.
+2. Edit 버튼을 클릭합니다.
+3. Show Advanced Settings를 클릭합니다.
+4. Emulated Performance 섹션으로 이동합니다.
+5. Graphics 옵션을 변경합니다. (예 : Software - GLES 2.0)
+6. Finish 버튼을 클릭합니다.
+
+이제 다시 AVD를 시작하면 정상적으로 실행되어 에러가 발생하지 않을 것입니다.
+
+​
+
+
+
+
+
+ 
+
+
+
+[![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2023-3-8-AVD Pixel_3_API_30 에뮬레이터 에러 해결법/0.png)](#)
+
+
+
+
+
+
+
+
+​
+
+그래픽 드라이버가 최신 버전이 아니거나 OpenGL ES 에뮬레이션 초기화가 실패한 경우 에러가 뜹니다
+
+​
+
+그 외에도 다양한 이유로 에러가 뜰 수 있으니 로그를 참고하세요
+
+로그의 경로는 
+
+C:\Users\사용자\AppData\Local\Google\AndroidStudio버전\log에 
+
+log.txt.입니다
+
+​
+
+
+
+
+
+ 
+
