@@ -1,7 +1,7 @@
 ---
 title: "유니티 FSBTool ERROR(오디오소스)"
 categories:
- - VRCHAT
+ - VRchat
 ---
 #유니티 FSBTool ERROR(오디오소스) : 네이버 블로그
 <div class="wrap_rabbit pcol2 _param(1) _postViewArea222520112094" id="post-view222520112094">
@@ -21,7 +21,7 @@ categories:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-85a88ab1-aac7-4e2b-8518-618ac913aa19", "src" : "https://postfiles.pstatic.net/MjAyMTA5MjlfMTAx/MDAxNjMyODQyOTQ4NzE1.V3tZjwsUlTdwDFAYzrAK5HIrNCbSvQon-KzmkbPz-_Qg.RM8hEX2S5iYcdzVFEVi3ER4pe4WERsdN2uaXdqHfIUIg.PNG.dls32208/image.png", "originalWidth" : "1558", "originalHeight" : "282", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" data-height="125" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfMTAx/MDAxNjMyODQyOTQ4NzE1.V3tZjwsUlTdwDFAYzrAK5HIrNCbSvQon-KzmkbPz-_Qg.RM8hEX2S5iYcdzVFEVi3ER4pe4WERsdN2uaXdqHfIUIg.PNG.dls32208/image.png?type=w966" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/0.png">
+<img alt="" class="se-image-resource" data-height="125" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfMTAx/MDAxNjMyODQyOTQ4NzE1.V3tZjwsUlTdwDFAYzrAK5HIrNCbSvQon-KzmkbPz-_Qg.RM8hEX2S5iYcdzVFEVi3ER4pe4WERsdN2uaXdqHfIUIg.PNG.dls32208/image.png?type=w773" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/0.png">
 </a>
 </div>
 </div>
@@ -40,7 +40,7 @@ categories:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-c554c4fc-b08a-43d2-bd36-d0b220f2f264", "src" : "https://postfiles.pstatic.net/MjAyMTA5MjlfMjk0/MDAxNjMyODQzMDA5MzU0.WRN3f3WY7kdTIuFhktguYhHvo3y8sEaI6DWVza-NUdQg.DPh1-DkZ_5pCMxJ2WIyOjOlvvZgc9Z0qtjJc0k6dhsog.PNG.dls32208/image.png", "originalWidth" : "829", "originalHeight" : "880", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" data-height="735" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfMjk0/MDAxNjMyODQzMDA5MzU0.WRN3f3WY7kdTIuFhktguYhHvo3y8sEaI6DWVza-NUdQg.DPh1-DkZ_5pCMxJ2WIyOjOlvvZgc9Z0qtjJc0k6dhsog.PNG.dls32208/image.png?type=w966" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/1.png">
+<img alt="" class="se-image-resource" data-height="735" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfMjk0/MDAxNjMyODQzMDA5MzU0.WRN3f3WY7kdTIuFhktguYhHvo3y8sEaI6DWVza-NUdQg.DPh1-DkZ_5pCMxJ2WIyOjOlvvZgc9Z0qtjJc0k6dhsog.PNG.dls32208/image.png?type=w773" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/1.png">
 </a>
 </div>
 </div>
@@ -59,7 +59,7 @@ categories:
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
 <a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-8d724dc0-bdae-48ea-b47e-c685b724a625", "src" : "https://postfiles.pstatic.net/MjAyMTA5MjlfNTcg/MDAxNjMyODQzMDM1MDMz.b0jPxZcblKL0aheE9A2I2xoH3g82qRzCX-Tsl9uEj-Mg.x_LjFg83jMgR0Ei9oUojAW92T5alW31diEdp_JBpolkg.PNG.dls32208/image.png", "originalWidth" : "1024", "originalHeight" : "889", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" data-height="601" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfNTcg/MDAxNjMyODQzMDM1MDMz.b0jPxZcblKL0aheE9A2I2xoH3g82qRzCX-Tsl9uEj-Mg.x_LjFg83jMgR0Ei9oUojAW92T5alW31diEdp_JBpolkg.PNG.dls32208/image.png?type=w966" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/2.png">
+<img alt="" class="se-image-resource" data-height="601" data-lazy-src="https://postfiles.pstatic.net/MjAyMTA5MjlfNTcg/MDAxNjMyODQzMDM1MDMz.b0jPxZcblKL0aheE9A2I2xoH3g82qRzCX-Tsl9uEj-Mg.x_LjFg83jMgR0Ei9oUojAW92T5alW31diEdp_JBpolkg.PNG.dls32208/image.png?type=w773" data-width="693" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-29-유니티 FSBTool ERROR(오디오소스)/2.png">
 </a>
 </div>
 </div>

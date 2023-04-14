@@ -1,10 +1,10 @@
 ---
-title: "Mymoney"
+title: "mymoney"
 layout: archive
-permalink: categories/Mymoney
+permalink: categories/mymoney
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Mymoney %}
+{% assign posts = site.categories.mymoney %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

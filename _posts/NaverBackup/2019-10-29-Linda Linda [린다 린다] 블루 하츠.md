@@ -68,8 +68,8 @@ categories:
 <div class="se-component-content se-component-content-fit">
 <div class="se-section se-section-image se-l-default se-section-align-">
 <div class="se-module se-module-image" style="">
-<a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-ad26d839-cfbd-429c-ad6c-bda449c8b8f7", "src" : "https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2019-10-29-Linda Linda [린다 린다] 블루 하츠/0.=80", "originalWidth" : "800", "originalHeight" : "806", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
-<img alt="" class="se-image-resource" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2019-10-29-Linda Linda [린다 린다] 블루 하츠/0.=80">
+<a class="se-module-image-link __se_image_link __se_link" data-linkdata='{"id" : "SE-ad26d839-cfbd-429c-ad6c-bda449c8b8f7", "src" : "https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2019-10-29-Linda Linda [린다 린다] 블루 하츠/0.png", "originalWidth" : "800", "originalHeight" : "806", "linkUse" : "false", "link" : ""}' data-linktype="img" href="#" onclick="return false;" style="">
+<img alt="" class="se-image-resource" src="https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2019-10-29-Linda Linda [린다 린다] 블루 하츠/0.png">
 </a>
 </div>
 <div class="se-module se-module-text se-caption"><p class="se-text-paragraph se-text-paragraph-align-" id="SE-355987de-ea98-4180-a98b-2c63adfe67ff" style=""><span class="se-fs- se-ff-" id="SE-8126247d-4527-4378-9ac9-e2b61fda84ac" style="">가사 카드에 없는 린다 린다 부분(왼쪽)</span></p><p class="se-text-paragraph se-text-paragraph-align-" id="SE-40d1fe73-b72b-49fb-b488-79ff373b3a5b" style=""><span class="se-fs- se-ff-" id="SE-9fafed8b-ba4e-4d77-bd0d-78da90a56018" style="">이미지출처 </span><span class="se-fs- se-ff-" id="SE-998cbbe3-74ea-4d21-b063-0f5b9d4d9584" style=""><a class="se-link" href="https://ameblo.jp/theejun/entry-12035709284.html" target="_blank">https://ameblo.jp/theejun/entry-12035709284.html</a></span></p></div>
