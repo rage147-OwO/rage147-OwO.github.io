@@ -70,7 +70,7 @@ categories:
 
 TeleportGun.unitypackage
 
-[파일 다운로드](https://blogattach.naver.net/099c15a6bdeded311df39bae9677097bd383799c7d/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage)
+[파일 다운로드](https://blogattach.naver.net/099c15a6bdeded311df39bae97730b71d3867c9f7b/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage)
 
 
 

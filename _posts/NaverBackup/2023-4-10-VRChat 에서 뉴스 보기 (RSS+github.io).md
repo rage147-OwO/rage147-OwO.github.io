@@ -228,7 +228,6 @@ UdonSharp
 
 
 ```
-csharp
 using System;
 using UdonSharp;
 using UnityEngine;
