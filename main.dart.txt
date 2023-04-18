@@ -1,0 +1,336 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(calculator());
+}
+//#region StateFul이벤트 실행주기, 버튼입력, 토글
+class MyStatefulWidget extends StatefulWidget {
+  @override State<StatefulWidget> createState() {
+    print('CreateState');
+    return _MyStatefulWidgetState();
+  }
+//_MyStatefulWidgetState createState() => _MyStatefulWidgetState();
+}
+
+
+class _MyStatefulWidgetState extends State<MyStatefulWidget> {
+  var switchValue=false;
+  var ButtonText='On';
+  var ButtonColor;
+  @override
+  void initState() {
+    super.initState();
+    print('Init');
+    // 상태 초기화 로직, State클래스 오버라이딩 가능 메소드(build(),initState(),didUpdateWidget(),setState(),dispose()완전히 해제)
+    //setState()는 Flutter에서 가장 중요한 메소드 중 하나로, 상태를 변경할 때 사용됩니다. setState() 메소드는 새로운 상태를 전달하면, Flutter 엔진은 이에 따라 UI를 업데이트하고, 다시 그리기(drawing)를 수행합니다
+    //deactivate() 메소드는 State 객체가 더 이상 활성화되지 않을 때 호출됩니다. 예를 들어, 다른 위젯이 현재 위젯을 가리는 등으로 인해 화면에서 숨겨진 경우 등에 이 메소드가 호출됩니다. deactivate() 메소드에서는 이벤트 리스너를 해제하거나, 애니메이션을 일시 중지하는 등의 정리 작업을 수행합니다. 이 메소드는 일시적으로 상태를 유지할 필요가 있는 경우에 사용됩니다.
+  }
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Test',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('asdf')
+        ),
+        body: Column(
+          children: [
+            Text('button$switchValue',),
+            Switch(value: switchValue, onChanged:(value){
+              setState((){
+                switchValue=value;
+                print(switchValue);
+              });
+            }),
+            ElevatedButton(onPressed: (){
+              if(ButtonText=='On'){
+                setState(() { //setState로 리로드
+                  ButtonText='Off';
+                  ButtonColor=Colors.green;
+                });
+              }
+              else{
+                setState(() {
+                  ButtonText='On';
+                  ButtonColor=Colors.red;
+                });
+              }
+            }, child: Text('Hello$ButtonText'),
+              style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(ButtonColor)),
+            ),
+            TextField(),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+
+//#endregion
+//#region StateLess기본예제
+//StateLess기본
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  // This widget is the home page of your application. It is stateful, meaning
+  // that it has a State object (defined below) that contains fields that affect
+  // how it looks.
+
+  // This class is the configuration for the state. It holds the values (in this
+  // case the title) provided by the parent (in this case the App widget) and
+  // used by the build method of the State. Fields in a Widget subclass are
+  // always marked "final".
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      // This call to setState tells the Flutter framework that something has
+      // changed in this State, which causes it to rerun the build method below
+      // so that the display can reflect the updated values. If we changed
+      // _counter without calling setState(), then the build method would not be
+      // called again, and so nothing would appear to happen.
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // This method is rerun every time setState is called, for instance as done
+    // by the _incrementCounter method above.
+    //
+    // The Flutter framework has been optimized to make rerunning build methods
+    // fast, so that you can just rebuild anything that needs updating rather
+    // than having to individually change instances of widgets.
+    return Scaffold(
+      appBar: AppBar(
+        // Here we take the value from the MyHomePage object that was created by
+        // the App.build method, and use it to set our appbar title.
+        title: Text(widget.title),
+      ),
+      body: Center(
+        // Center is a layout widget. It takes a single child and positions it
+        // in the middle of the parent.
+        child: Column(
+          // Column is also a layout widget. It takes a list of children and
+          // arranges them vertically. By default, it sizes itself to fit its
+          // children horizontally, and tries to be as tall as its parent.
+          //
+          // Invoke "debug painting" (press "p" in the console, choose the
+          // "Toggle Debug Paint" action from the Flutter Inspector in Android
+          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
+          // to see the wireframe for each widget.
+          //
+          // Column has various properties to control how it sizes itself and
+          // how it positions its children. Here we use mainAxisAlignment to
+          // center the children vertically; the main axis here is the vertical
+          // axis because Columns are vertical (the cross axis would be
+          // horizontal).
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+//#endregion
+//#region 이미지,폰트추가
+class Layout extends StatelessWidget{
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(
+      title: 'Material',
+      theme: ThemeData(
+        primarySwatch:  Colors.blue
+      ),
+      home: LayoutApp(),
+    );
+  }
+}
+class LayoutApp extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    return _LayoutApp();
+  }
+}
+class _LayoutApp extends State<LayoutApp>{
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(title: Text('asdf')),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.abc),onPressed:(){}),
+    body: Container(
+      child: Center( //스크롤중간
+        child:Column(
+          children: <Widget>[
+            Icon(Icons.android),
+            Text('android'),
+            //이미지 추가방법 pubspec.yaml
+            //flutter, uses-material-design: true아래에
+            //assets:
+            //  - 경로 ex) - images//
+            //이미지는 assets/images/ 디렉토리 하위에 저장
+            //flutter pub get
+
+            Image.asset('images/aaa.png',width: 100,height: 100,),
+
+            //폰트 추가방법
+            //font디렉토리 만들고 저장
+            //flutter, uses-material-design: true아래에
+            //assets: 과 같은 라인에
+            //fonts:
+            //  - family: 이름
+            //    fonts:
+            //      -asset:font/이름.ttf
+            //        weight:400
+            // flutter put get
+            //Text('asdf',style: TextStyle(fontFamily: 'NanumGothic', fontSize: 30, color: Colors.red),)
+
+          ],
+          mainAxisAlignment: MainAxisAlignment.center, //좌우중간
+        ),
+      )
+    ),
+    );
+  }
+}
+//#endregion
+
+
+class calculator extends StatefulWidget {
+  @override State<StatefulWidget> createState() {
+    return _calculator();
+  }
+}
+
+class _calculator extends State<calculator> {
+  String sum='';
+  var ButtonIcon=Icons.add;
+  TextEditingController value1=TextEditingController();
+  TextEditingController value2=TextEditingController();
+
+  List _buttonList=['ADD','SUB','MUL','DIV'];
+  List<DropdownMenuItem<String>> _dropDownMenuItems=new List.empty(growable: true);
+  String? _buttonText;
+  @override void initState() {
+    super.initState();
+    for(var item in _buttonList){
+      _dropDownMenuItems.add(DropdownMenuItem(value: item,child:Text(item)));
+    }
+    _buttonText=_dropDownMenuItems[0].value;
+  }
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Test',
+      home: Scaffold(
+        appBar: AppBar(
+            title: Text('asdf')
+        ),
+        body: Center(
+          child: Column(
+            children: [
+              Padding(padding: EdgeInsets.all(15),
+                child: Text('Calculator'),
+              ),
+              Padding(padding: EdgeInsets.only(left:20,right: 20),
+                child: TextField(
+                  keyboardType: TextInputType.number,
+                  controller: value1,
+                ),
+              ),
+              Padding(padding: EdgeInsets.only(left:20,right: 20),
+                child: TextField(
+                  keyboardType: TextInputType.number,
+                  controller: value2,
+                ),
+              ),
+              Padding(padding: EdgeInsets.all(15),
+                child: ElevatedButton(
+                  child: Row(
+                    children: <Widget>[
+                      Icon(ButtonIcon),
+                      Text(_buttonText!)
+                    ],
+                  ),
+                  onPressed: (){
+                    setState(() {
+                      var value1Int=double.parse(value1.value.text);
+                      var value2Int=double.parse(value2.value.text);
+                      var result;
+                      if(_buttonText=='ADD'){
+                        result=value1Int+value2Int;
+                      }
+                      if(_buttonText=='SUB'){
+                        result=value1Int-value2Int;
+                      }
+                      if(_buttonText=='MUL'){
+                        result=value1Int*value2Int;
+                      }
+                      if(_buttonText=='DIV'){
+                        result=value1Int/value2Int;
+                      }
+                      sum='$result';
+                    });
+                  },
+                  style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Colors.amber)),
+                ),
+              ),
+              Padding(padding: EdgeInsets.all(15),
+                child: Text('Result : $sum',style: TextStyle(fontSize: 20),),
+              ),
+              Padding(padding: EdgeInsets.all(15),
+                child: DropdownButton(items: _dropDownMenuItems,onChanged: (String? value){
+                  setState(() {
+                    _buttonText=value;
+                  });
+                },value:_buttonText
+                ),
+              )
+
+              
+              
+            ],
+          ),
+        )
+      ),
+    );
+  }
+}
+
