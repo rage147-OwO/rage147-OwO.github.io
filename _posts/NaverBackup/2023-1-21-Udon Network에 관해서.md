@@ -1,7 +1,7 @@
 ---
 title: "Udon Network에 관해서"
 categories:
- - UDONrelatedarticle
+ - ArticlesrelatedtoUdon
 ---
 #Udon Network에 관해서 : 네이버 블로그
 

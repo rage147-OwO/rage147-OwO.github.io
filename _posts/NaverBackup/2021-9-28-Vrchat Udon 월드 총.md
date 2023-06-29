@@ -1,7 +1,7 @@
 ---
 title: "Vrchat Udon 월드 총"
 categories:
- - UDONSHARPexample
+ - UdonSharpExample
 ---
 #Vrchat Udon 월드 총 : 네이버 블로그
 
@@ -70,7 +70,7 @@ categories:
 
 TeleportGun.unitypackage
 
-[파일 다운로드](https://blogattach.naver.net/099c15a6bdeded311df39bae97730b71d3867c9f7b/20210928_97_blogfile/dls32208_1632820001272_8O0RwH_unitypackage/TeleportGun.unitypackage)
+[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311df392ab97750b7ad2867b9e77/YR0ba48RDipTiY_UTWtfzM40y8pvKGiqGZp1v_tI4-2i4LEdian-0QSMpuDgBBS_B0kGrhvgBJ4VXqF-SSxvTQ/TeleportGun.unitypackage)
 
 
 

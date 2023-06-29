@@ -1,10 +1,10 @@
 ---
-title: "UDONGRAPHcourse"
+title: "UdonGraphCourse"
 layout: archive
-permalink: categories/UDONGRAPHcourse
+permalink: categories/UdonGraphCourse
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.UDONGRAPHcourse %}
+{% assign posts = site.categories.UdonGraphCourse %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

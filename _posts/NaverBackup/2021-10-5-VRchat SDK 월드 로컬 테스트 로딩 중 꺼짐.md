@@ -1,7 +1,7 @@
 ---
 title: "VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐"
 categories:
- - VRCHAT
+ - VRchat
 ---
 #VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐 : 네이버 블로그
 

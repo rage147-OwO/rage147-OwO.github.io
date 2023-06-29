@@ -1,7 +1,7 @@
 ---
 title: "VRchat OX퀴즈 월드 코드(udonsharp)"
 categories:
- - UDONSHARPexample
+ - UdonSharpExample
 ---
 #VRchat OX퀴즈 월드 코드(udonsharp) : 네이버 블로그
 
@@ -1246,7 +1246,7 @@ public UdonBehaviour Main; //메인 프로그램을 가져옵니다.
 
 udonsharp.cs
 
-[파일 다운로드](https://blogattach.naver.net/74e168dbc095904c608ee6d3ea0e760cacfe0be887/20210927_271_blogfile/dls32208_1632728010030_xVfK1M_cs/udonsharp.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c608eefd6ea087607aafb07e077/y_eWP9BM3MjhmQBvA-c8dVPQcGufYmDeSTVq84Ma5AksT55hJqIlDr7qEl8OYBOmnJSIZCuEPOyrgpAbAUXR0g/udonsharp.cs)
 
 
 
@@ -1271,7 +1271,7 @@ udonsharp.cs
 
 teleport.cs
 
-[파일 다운로드](https://blogattach.naver.net/74e168dbc095904c608ee6d3ea0e760cacfe0be887/20210927_189_blogfile/dls32208_1632728029911_80lHYv_cs/teleport.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c608eefd6ea087607aafb07e077/4xsK9r167S4yyO3jFDxSfKVrEpx401QbQAlYHldUvRqA3EH8PCVw-9MO8d55FqlPBVRO3n-B5y8SUuLSmpLUVA/teleport.cs)
 
 
 
@@ -1298,7 +1298,7 @@ teleport.cs
 
 reset.cs
 
-[파일 다운로드](https://blogattach.naver.net/79ec65d5c49b9d416d83ebdee7037b01a1f306e57a/20210927_31_blogfile/dls32208_1632728041594_6e3jGv_cs/reset.cs)
+[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416d83e2dbe7057b0aa7f60aed8e/2Vd-SLJJoVMDNumwqpjmu_m2SsVInclklFbEcmp0YD4RsNhWXTq7koA6jOAoc7jpXTqh4tc6AKptESdP6eXfUw/reset.cs)
 
 
 
@@ -1325,7 +1325,7 @@ reset.cs
 
 checkpeople.cs
 
-[파일 다운로드](https://blogattach.naver.net/28bd348790c5cc103cd2ba8fb6522a50f0a257b447/20210927_244_blogfile/dls32208_1632728056331_W5PG9o_cs/checkpeople.cs)
+[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103cd2b38ab6542a5bf6a75bbc5f/I1lgd7HUrQQ2wbkObeKGS0_Sm3Zic7_u-fYiG1Sj27Zw-guy_1mHSAs71hNem_pbA-AGKjT5_jjisCwhalV2GQ/checkpeople.cs)
 
 
 
@@ -1362,7 +1362,7 @@ checkpeople.cs
 
 music.cs
 
-[파일 다운로드](https://blogattach.naver.net/0e9b12a1bbefea361af49ca990740c76d68471925c/20210927_221_blogfile/dls32208_1632728173910_Hs2v4K_cs/music.cs)
+[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361af495ac90720c7dd0817d9a68/td2PS8IRTxHC99Kmzuptr1a-_wlIGHs3NGVOxv-Hnakx14bTSvRj8Db8hB7X8azQpo9IZTWR6zw7hZfWaXVicA/music.cs)
 
 
 
@@ -1389,7 +1389,7 @@ music.cs
 
 soundeffect.cs
 
-[파일 다운로드](https://blogattach.naver.net/6ffa73c3d38d8b577b95fdc8f1156d17b7e510f3df/20210927_262_blogfile/dls32208_1632728088334_OCjJFp_cs/soundeffect.cs)
+[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577b95f4cdf1136d1cb1e01cfbe7/CMPprnKWr0UwH-Y7ToWkfBFauX2RXn5R7m4iNHPy4LIjQg_W_IOkeKrWOzpgGZOarvoc3pvBtzBpgHpnE2FWOQ/soundeffect.cs)
 
 
 
@@ -1416,7 +1416,7 @@ soundeffect.cs
 
 mirror.cs
 
-[파일 다운로드](https://blogattach.naver.net/26b33a899fc7c21e32dcb481b85c245efeac59ba78/20210927_25_blogfile/dls32208_1632728072644_0aOIW8_cs/mirror.cs)
+[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e32dcbd84b85a2455f8a955b264/4L5NBH7lTZ-Bt6SmSKGZynEOkD3r0Cr4sXUG_Z79eK2bm6SdAlF3FDaYq_i6t2VPkYBQyTtKildDjFwy2WnQ2Q/mirror.cs)
 
 
 
