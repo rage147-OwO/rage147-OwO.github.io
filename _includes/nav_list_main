@@ -21,8 +21,56 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "day" %}
-<li><a href="/categories/day" class="">2023일기 ({{category[1].size}})</a></li>
+{% if category[0] == "AI" %}
+<li><a href="/categories/AI" class="">AI ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "movie" %}
+<li><a href="/categories/movie" class="">영화 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "summermotorcycletrip" %}
+<li><a href="/categories/summermotorcycletrip" class="">2023여름오토바이여행 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "memo" %}
+<li><a href="/categories/memo" class="">메모 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "UdonGraphCourse" %}
+<li><a href="/categories/UdonGraphCourse" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Viewotherprojects" %}
+<li><a href="/categories/Viewotherprojects" class="">다른프로젝트구경 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "diary" %}
+<li><a href="/categories/diary" class="">2023일기 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -45,16 +93,8 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "movie" %}
-<li><a href="/categories/movie" class="">영화 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "UDONrelatedarticle" %}
-<li><a href="/categories/UDONrelatedarticle" class="">Udon관련글 ({{category[1].size}})</a></li>
+{% if category[0] == "ArticlesrelatedtoUdon" %}
+<li><a href="/categories/ArticlesrelatedtoUdon" class="">Udon관련글 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -77,8 +117,8 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "SummerBicycleSoup" %}
-<li><a href="/categories/SummerBicycleSoup" class="">2019여름자전거국토종주 ({{category[1].size}})</a></li>
+{% if category[0] == "summercyclingnationalrace" %}
+<li><a href="/categories/summercyclingnationalrace" class="">2019여름자전거국토종주 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -93,24 +133,16 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "Mymoney" %}
-<li><a href="/categories/Mymoney" class="">내돈내산 ({{category[1].size}})</a></li>
+{% if category[0] == "mymoney" %}
+<li><a href="/categories/mymoney" class="">내돈내산 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "UDONSHARPcourse" %}
-<li><a href="/categories/UDONSHARPcourse" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "UDONGRAPHcourse" %}
-<li><a href="/categories/UDONGRAPHcourse" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
+{% if category[0] == "UdonSharpCourses" %}
+<li><a href="/categories/UdonSharpCourses" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -141,16 +173,16 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "VRCHAT" %}
-<li><a href="/categories/VRCHAT" class="">VRchat ({{category[1].size}})</a></li>
+{% if category[0] == "VRchat" %}
+<li><a href="/categories/VRchat" class="">VRchat ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "UDONSHARPexample" %}
-<li><a href="/categories/UDONSHARPexample" class="">UdonSharp예제 ({{category[1].size}})</a></li>
+{% if category[0] == "UdonSharpExample" %}
+<li><a href="/categories/UdonSharpExample" class="">UdonSharp예제 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
