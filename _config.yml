@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "rage147's Blog"
+title                    : "rage 147's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "rage147"
+name                     : "rage 147"
 description              : ""
 url                      : "https://rage147-OwO.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : rage147-OwO/rage147-OwO.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Rage147's Blog" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Rage 147's Blog" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rage147"
+  name             : "Rage 147"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "때론 게으르지만<br/>때론 부지런한 사람"
   location         : "Republic of Korea"
