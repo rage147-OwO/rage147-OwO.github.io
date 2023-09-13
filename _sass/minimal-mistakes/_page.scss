@@ -48,24 +48,19 @@ body {
   }
 
   .page__inner-wrap {
-    float: left;
+    display: flex;
+    flex-direction: column; /* stack children vertically */
     margin-top: 1em;
-    margin-left: 0;
-    margin-right: 0;
     width: 100%;
-    clear: both;
 
     .page__content,
     .page__meta,
     .page__share {
-      position: relative;
-      float: left;
-      margin-left: 0;
-      margin-right: 0;
+      margin: 0; /* remove margin */
       width: 100%;
-      clear: both;
     }
   }
+
 }
 
 .page__title {
