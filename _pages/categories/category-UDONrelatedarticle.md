@@ -1,10 +1,10 @@
 ---
-title: "VRCHAT"
+title: "UDONrelatedarticle"
 layout: archive
-permalink: categories/VRCHAT
+permalink: categories/UDONrelatedarticle
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.VRCHAT %}
+{% assign posts = site.categories.UDONrelatedarticle %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
