@@ -3,7 +3,6 @@ title: "프로젝트 계획서- 산업 현장 3D 구현 및 CCTV 영상을 통�
 categories:
  - personalproject
 ---
-#프로젝트 계획서: 산업 현장 3D 구현 및 CCTV 영상을 통한 포즈 추정과 Unity Humanoid 시각화 : 네이버 블로그
 
 
 

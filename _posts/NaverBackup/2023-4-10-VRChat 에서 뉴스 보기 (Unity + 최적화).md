@@ -3,7 +3,6 @@ title: "VRChat 에서 뉴스 보기 (Unity + 최적화)"
 categories:
  - personalproject
 ---
-#VRChat 에서 뉴스 보기 (Unity + 최적화) : 네이버 블로그
 
 
 

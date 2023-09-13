@@ -3,7 +3,6 @@ title: "VRChat 에서 뉴스 보기 (RSS+github.io)"
 categories:
  - personalproject
 ---
-#VRChat 에서 뉴스 보기 (RSS+github.io) : 네이버 블로그
 
 
 

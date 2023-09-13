@@ -3,7 +3,6 @@ title: "C언어 함수(function) 2"
 categories:
  - C
 ---
-#C언어 함수(function) 2 : 네이버 블로그
 
 
 

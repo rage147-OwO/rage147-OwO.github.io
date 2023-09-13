@@ -3,7 +3,6 @@ title: "AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법"
 categories:
  - memo
 ---
-#AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법 : 네이버 블로그
 
 
 

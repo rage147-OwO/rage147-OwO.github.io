@@ -3,7 +3,6 @@ title: "[youtube]VRChat Udon 강의 강의자료"
 categories:
  - UDONGRAPHcourse
 ---
-#[youtube]VRChat Udon 강의 강의자료 : 네이버 블로그
 
 
 

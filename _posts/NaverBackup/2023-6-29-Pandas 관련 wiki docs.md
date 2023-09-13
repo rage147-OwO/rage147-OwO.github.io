@@ -3,7 +3,6 @@ title: "Pandas 관련 wiki docs"
 categories:
  - AI
 ---
-#Pandas 관련 wiki docs : 네이버 블로그
 
 
 

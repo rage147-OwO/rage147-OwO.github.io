@@ -3,7 +3,6 @@ title: "SKT FLY AI 2기 [AI 비전과 챗봇을 활용한 아동심리분석 에
 categories:
  - Otherprojectviewing
 ---
-#SKT FLY AI 2기 [AI 비전과 챗봇을 활용한 아동심리분석 에이닷 확장 서비스] 프로젝트 구경하기 : 네이버 블로그
 
 
 
