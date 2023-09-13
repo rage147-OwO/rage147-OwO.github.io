@@ -226,7 +226,7 @@ categories:
 
 
 
-[![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2023-09-07-시차 (Time Lag) - 모트 (Motte)/0.png)](#)
+[![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2023-9-6-시차 (Time Lag) - 모트 (Motte)/0.png)](#)
 
 
 

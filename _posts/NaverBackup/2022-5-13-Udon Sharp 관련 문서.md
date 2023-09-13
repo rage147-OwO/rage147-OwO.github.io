@@ -1,7 +1,7 @@
 ---
 title: "Udon Sharp 관련 문서"
 categories:
- - UdonSharpCourses
+ - UDONSHARPcourse
 ---
 #Udon Sharp 관련 문서 : 네이버 블로그
 
