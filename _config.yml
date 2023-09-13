@@ -105,33 +105,34 @@ author:
   name             : 
   avatar           : https://rage147-owo.github.io/portfolio/imgs/avatar2.jpg
   bio              : <a href="https://blog.naver.com/rage147-owo" target="_blank">네이버 블로그에서<br> 개발글만 연동됩니다. blog.naver.com/rage147-owo</a>
-  email            : "rage147.owo@gmail.com"
+  email            : 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:dls32208@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rage147-OwO"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/dlawnsxor/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:rage147.owo@gmail.com
+    - label: "NaverBlog"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.naver.com/rage147-owo"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:dls32208@email.com
+      url: mailto:rage147.owo@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
