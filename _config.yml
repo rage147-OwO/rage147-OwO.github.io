@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "rage 147's Blog"
+title                    : "rage 147의 블로그"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : 
 name                     : "rage 147"
-description              : ""
+description              : 
 url                      : "https://rage147-OwO.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : rage147-OwO/rage147-OwO.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Rage 147's Blog" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "rage147의 개발블로그" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,11 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rage 147"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "때론 게으르지만<br/>때론 부지런한 사람"
-  location         : "Republic of Korea"
-  email            :
+  name             : 
+  avatar           : https://rage147-owo.github.io/portfolio/imgs/avatar2.jpg
+  bio              : <a href="https://blog.naver.com/rage147-owo" target="_blank">네이버 블로그에서<br> 개발글만 연동됩니다. blog.naver.com/rage147-owo</a>
+  email            : "rage147.owo@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -216,7 +215,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
