@@ -1,8 +1,8 @@
----
 title: "AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법"
 categories:
  - memo
 ---
+#AVD Pixel\_3\_API\_30 에뮬레이터 에러 해결법 : 네이버 블로그
 
 
 
@@ -78,10 +78,3 @@ C:\Users\사용자\AppData\Local\Google\AndroidStudio버전\log에
 log.txt.입니다
 
 ​
-
-
-
-
-
- 
-

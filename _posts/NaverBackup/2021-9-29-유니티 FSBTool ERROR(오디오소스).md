@@ -1,8 +1,8 @@
----
 title: "유니티 FSBTool ERROR(오디오소스)"
 categories:
  - VRCHAT
 ---
+#유니티 FSBTool ERROR(오디오소스) : 네이버 블로그
 
 
 
@@ -103,10 +103,3 @@ FSBTool이 윈도우 디펜더에서 걸려 실행이 안돼는 것이다.
 
 
 ​
-
-
-
-
-
- 
-

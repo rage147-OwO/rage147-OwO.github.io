@@ -1,8 +1,8 @@
----
 title: "AWS Elastic Beanstalk 업로드 최대 크기 512MB"
 categories:
  - memo
 ---
+#AWS Elastic Beanstalk 업로드 최대 크기 512MB : 네이버 블로그
 
 
 
@@ -22,10 +22,3 @@ AWS Elastic Beanstalk에서 한번의 업로드 최대 크기는 512MB이다.(zi
 ​
 
 ​
-
-
-
-
-
- 
-

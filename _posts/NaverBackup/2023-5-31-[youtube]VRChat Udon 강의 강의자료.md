@@ -1,8 +1,8 @@
----
 title: "[youtube]VRChat Udon 강의 강의자료"
 categories:
  - UDONGRAPHcourse
 ---
+#[youtube]VRChat Udon 강의 강의자료 : 네이버 블로그
 
 
 
@@ -13,7 +13,7 @@ categories:
 
 VRChat Unity 강의
 
-네이버 카페[왁물원]에서 메타버스에 관심이 있는 성인을 대상으로(80명) 실시간 강의
+네이버 카페[왁물원]에서 한 강의..
 
 2시간 6강 분량
 
@@ -154,10 +154,3 @@ naver.me](http://naver.me/FKxLDWX7)
 ​
 
 댓글로 물어보거나 discord : rage147#2898 로 DM주세요!
-
-
-
-
-
- 
-

@@ -1,8 +1,8 @@
----
 title: "VRChat 에서 뉴스 보기 (RSS+github.io)"
 categories:
  - personalproject
 ---
+#VRChat 에서 뉴스 보기 (RSS+github.io) : 네이버 블로그
 
 
 
@@ -1062,10 +1062,3 @@ HTML로 github.io에서 잘 작동하는것을 볼 수 있다.
 ​
 
 다음편은 유니티 클라이언트에서의 개발이다.
-
-
-
-
-
- 
-

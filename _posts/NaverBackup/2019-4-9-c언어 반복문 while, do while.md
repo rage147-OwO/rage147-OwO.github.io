@@ -1,8 +1,8 @@
----
 title: "c언어 반복문 while, do while"
 categories:
  - C
 ---
+#c언어 반복문 while, do while : 네이버 블로그
 
 
 
@@ -271,9 +271,3 @@ do while은 일다나 실행하고 조건에 참이면 계속 반복하는 반�
 고로 o와 i가 같게 되면 반복이 끝나고 i를 출력하게 된다
 
 ​
-
-
-
-
- 
-

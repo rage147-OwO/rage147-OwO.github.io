@@ -1,8 +1,8 @@
----
 title: "Vrchat Udon 월드 총"
 categories:
  - UDONSHARPexample
 ---
+#Vrchat Udon 월드 총 : 네이버 블로그
 
 
 
@@ -69,7 +69,7 @@ categories:
 
 TeleportGun.unitypackage
 
-[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311df29eae9f700a76d5847a957a/YR0ba48RDipTiY_UTWtfzM40y8pvKGiqGZp1v_tI4-2i4LEdian-0QSMpuDgBBS_B0kGrhvgBJ4VXqF-SSxvTQ/TeleportGun.unitypackage)
+[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311cfa92ac95780d76da87799f85/YR0ba48RDipTiY_UTWtfzM40y8pvKGiqGZp1v_tI4-2i4LEdian-0QSMpuDgBBS_B0kGrhvgBJ4VXqF-SSxvTQ/TeleportGun.unitypackage)
 
 
 
@@ -670,10 +670,3 @@ InputUse를 썼었습니다
 ​
 
 이후 OnPickupUseDown()을 사용하니 해결되었습니다.
-
-
-
-
-
- 
-

@@ -1,8 +1,8 @@
----
 title: "프로젝트 계획서- 산업 현장 3D 구현 및 CCTV 영상을 통한 포즈 추정과 Unity Humanoid 시각화"
 categories:
  - personalproject
 ---
+#프로젝트 계획서: 산업 현장 3D 구현 및 CCTV 영상을 통한 포즈 추정과 Unity Humanoid 시각화 : 네이버 블로그
 
 
 
@@ -87,10 +87,3 @@ categories:
 산업 현장의 안전과 효율성을 높이기 위한 이 프로젝트는 기술적 도전과 혁신을 추구한다. NeRF, Blender 및 Unity의 Humanoid를 활용한 종합적인 접근으로 프로젝트의 성공을 목표로 한다.
 
 ​
-
-
-
-
-
- 
-

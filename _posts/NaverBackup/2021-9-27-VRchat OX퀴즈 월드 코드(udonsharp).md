@@ -1,8 +1,8 @@
----
 title: "VRchat OX퀴즈 월드 코드(udonsharp)"
 categories:
  - UDONSHARPexample
 ---
+#VRchat OX퀴즈 월드 코드(udonsharp) : 네이버 블로그
 
 
 
@@ -1245,7 +1245,7 @@ public UdonBehaviour Main; //메인 프로그램을 가져옵니다.
 
 udonsharp.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c608fe3d3e20d770ba9f506e366/y_eWP9BM3MjhmQBvA-c8dVPQcGufYmDeSTVq84Ma5AksT55hJqIlDr7qEl8OYBOmnJSIZCuEPOyrgpAbAUXR0g/udonsharp.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c6187efd1e8057008abfd02e464/y_eWP9BM3MjhmQBvA-c8dVPQcGufYmDeSTVq84Ma5AksT55hJqIlDr7qEl8OYBOmnJSIZCuEPOyrgpAbAUXR0g/udonsharp.cs)
 
 
 
@@ -1270,7 +1270,7 @@ udonsharp.cs
 
 teleport.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c608fe3d3e20d770ba9f506e366/4xsK9r167S4yyO3jFDxSfKVrEpx401QbQAlYHldUvRqA3EH8PCVw-9MO8d55FqlPBVRO3n-B5y8SUuLSmpLUVA/teleport.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c6187efd1e8057008abfd02e464/4xsK9r167S4yyO3jFDxSfKVrEpx401QbQAlYHldUvRqA3EH8PCVw-9MO8d55FqlPBVRO3n-B5y8SUuLSmpLUVA/teleport.cs)
 
 
 
@@ -1297,7 +1297,7 @@ teleport.cs
 
 reset.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416d82eedeef007a06a4f80bee9b/2Vd-SLJJoVMDNumwqpjmu_m2SsVInclklFbEcmp0YD4RsNhWXTq7koA6jOAoc7jpXTqh4tc6AKptESdP6eXfUw/reset.cs)
+[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416c8ae2dce5087d05a6f00fe98d/2Vd-SLJJoVMDNumwqpjmu_m2SsVInclklFbEcmp0YD4RsNhWXTq7koA6jOAoc7jpXTqh4tc6AKptESdP6eXfUw/reset.cs)
 
 
 
@@ -1324,7 +1324,7 @@ reset.cs
 
 checkpeople.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103cd3bf8fbe512b57f5a95abf76/I1lgd7HUrQQ2wbkObeKGS0_Sm3Zic7_u-fYiG1Sj27Zw-guy_1mHSAs71hNem_pbA-AGKjT5_jjisCwhalV2GQ/checkpeople.cs)
+[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103ddbb38db4592c54f7a15eb864/I1lgd7HUrQQ2wbkObeKGS0_Sm3Zic7_u-fYiG1Sj27Zw-guy_1mHSAs71hNem_pbA-AGKjT5_jjisCwhalV2GQ/checkpeople.cs)
 
 
 
@@ -1361,7 +1361,7 @@ checkpeople.cs
 
 music.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361af599a998770d71d38f7c997b/td2PS8IRTxHC99Kmzuptr1a-_wlIGHs3NGVOxv-Hnakx14bTSvRj8Db8hB7X8azQpo9IZTWR6zw7hZfWaXVicA/music.cs)
+[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361bfd95ab927f0a72d187789f7a/td2PS8IRTxHC99Kmzuptr1a-_wlIGHs3NGVOxv-Hnakx14bTSvRj8Db8hB7X8azQpo9IZTWR6zw7hZfWaXVicA/music.cs)
 
 
 
@@ -1388,7 +1388,7 @@ music.cs
 
 soundeffect.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577b94f8c8f9166c10b2ee1df8f0/CMPprnKWr0UwH-Y7ToWkfBFauX2RXn5R7m4iNHPy4LIjQg_W_IOkeKrWOzpgGZOarvoc3pvBtzBpgHpnE2FWOQ/soundeffect.cs)
+[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577a9cf4caf31e6b13b0e619fef1/CMPprnKWr0UwH-Y7ToWkfBFauX2RXn5R7m4iNHPy4LIjQg_W_IOkeKrWOzpgGZOarvoc3pvBtzBpgHpnE2FWOQ/soundeffect.cs)
 
 
 
@@ -1415,7 +1415,7 @@ soundeffect.cs
 
 mirror.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e32ddb181b05f2559fba754b157/4L5NBH7lTZ-Bt6SmSKGZynEOkD3r0Cr4sXUG_Z79eK2bm6SdAlF3FDaYq_i6t2VPkYBQyTtKildDjFwy2WnQ2Q/mirror.cs)
+[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e33d5bd83ba57225af9af50b766/4L5NBH7lTZ-Bt6SmSKGZynEOkD3r0Cr4sXUG_Z79eK2bm6SdAlF3FDaYq_i6t2VPkYBQyTtKildDjFwy2WnQ2Q/mirror.cs)
 
 
 
@@ -1425,10 +1425,3 @@ mirror.cs
 
 
 거울입니다
-
-
-
-
-
- 
-

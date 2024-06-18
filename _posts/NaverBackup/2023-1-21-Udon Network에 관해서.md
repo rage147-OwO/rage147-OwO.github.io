@@ -1,8 +1,8 @@
----
 title: "Udon Network에 관해서"
 categories:
  - UDONrelatedarticle
 ---
+#Udon Network에 관해서 : 네이버 블로그
 
 
 
@@ -210,7 +210,7 @@ Manual은 싱크 변수를 수동으로 동시시켜줘야 합니다
 
 VRC Object Sync 컴포넌트는 오브젝트의 
 
-**VRC Object Sync**는 오브젝트 활성화 비활성화, Transform과 Rigidbody를 동기시킵니다
+**VRC Object Sync**는 Transform과 Rigidbody를 동기시킵니다
 
 오직 오브젝트의 오너만 값을 변경 할 수 있습니다
 
@@ -239,7 +239,7 @@ Allow Collision Ownership Transfer를 체크하면 다른 사람의 오브젝트
 
 
 
-장점: 픽업 오브젝트, 활성화/비활성화, Transform, Rigidbody 동기가 필요한 경우 간편하게 적용 할 수 있음
+장점: 픽업 오브젝트, Transform, Rigidbody 동기가 필요한 경우 간편하게 적용 할 수 있음
 
 단점: 
 
@@ -253,7 +253,7 @@ Allow Collision Ownership Transfer를 체크하면 다른 사람의 오브젝트
 
 **​**
 
-**- 샌드커스텀네트워크를 이용한 싱크**
+**- SendCustomNetworkEvent를 이용한 싱크**
 
 문서: <https://docs.vrchat.com/docs/udon-networking#using-custom-events>
 
@@ -758,10 +758,3 @@ discord.gg](https://discord.gg/E8rF9uTggA)
 
 
 ​
-
-
-
-
-
- 
-

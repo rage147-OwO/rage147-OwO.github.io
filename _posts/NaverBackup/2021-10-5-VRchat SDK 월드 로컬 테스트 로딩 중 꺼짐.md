@@ -1,8 +1,8 @@
----
 title: "VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐"
 categories:
  - VRCHAT
 ---
+#VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐 : 네이버 블로그
 
 
 
@@ -72,10 +72,3 @@ Edit에서 올바른 VRchat.exe 파일을 연결 해 주면 됀다.
 VRchat이 다른 디스크에 설치 돼어 있을 때 SDK는 오큘러스같은 다른 VRchat exe를 찾게 돼고
 
 그로 인해 문제가 생긴 듯 하다.
-
-
-
-
-
- 
-
