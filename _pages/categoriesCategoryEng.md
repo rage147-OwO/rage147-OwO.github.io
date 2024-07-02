@@ -1,3 +1,4 @@
+Japanesebicycletrip
 AeSongmyeongCity
 VRCHAT
 UDONSHARPcourse
@@ -6,10 +7,10 @@ animatedmovie
 UDONrelatedarticle
 Comgong
 personalproject
-SummerMotoBaiTravel
+MotorbaiTravel
 AI
 UDONGRAPHcourse
-SummerBicycleSoup
+BicycleSoup
 UDONSHARPexample
 CspecialCharspecialChar
 C

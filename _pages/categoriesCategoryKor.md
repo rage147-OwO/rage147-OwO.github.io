@@ -1,3 +1,4 @@
+2024일본자전거여행
 애송명시
 VRchat
 UdonSharp강좌
@@ -6,10 +7,10 @@ UdonSharp강좌
 Udon관련글
 컴공
 개인프로젝트
-2023여름오토바이여행
+2023오토바이여행
 AI
 UdonGraph강좌
-2019여름자전거국토종주
+2019자전거국토종주
 UdonSharp예제
 C++
 C
