@@ -13,22 +13,24 @@
                         style="font-family:'Cafe24Oneprettynight';">개</style>
         </li>
         <li>
-            <!--span 태그로 카테고리들을 크게 분류 ex) UdonTutorial-->
             <span class="nav__sub-title">카테고리</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-            <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
 
 <ul>
 {% for category in site.categories %}
+<<<<<<< HEAD
 {% if category[0] == "Japanesebicycletrip" %}
 <li><a href="/categories/Japanesebicycletrip" class="">2024일본자전거여행 ({{category[1].size}})</a></li>
+=======
+{% if category[0] == "GwaenchanhdauiKkeuteulChajaseo" %}
+<li><a href="/categories/GwaenchanhdauiKkeuteulChajaseo" class="">'괜찮다'의 끝을 찾아서 ({{category[1].size}})</a></li>
+>>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
+<<<<<<< HEAD
 {% if category[0] == "AeSongmyeongCity" %}
 <li><a href="/categories/AeSongmyeongCity" class="">애송명시 ({{category[1].size}})</a></li>
 {% endif %}
@@ -47,20 +49,25 @@
 {% for category in site.categories %}
 {% if category[0] == "UDONSHARPcourse" %}
 <li><a href="/categories/UDONSHARPcourse" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
+=======
+{% if category[0] == "2019JajeongeoGugtojongju" %}
+<li><a href="/categories/2019JajeongeoGugtojongju" class="">2019 자전거 국토종주 ({{category[1].size}})</a></li>
+>>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "memo" %}
-<li><a href="/categories/memo" class="">메모 ({{category[1].size}})</a></li>
+{% if category[0] == "2023OtobaiYeohaeng" %}
+<li><a href="/categories/2023OtobaiYeohaeng" class="">2023 오토바이 여행 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
+<<<<<<< HEAD
 {% if category[0] == "animatedmovie" %}
 <li><a href="/categories/animatedmovie" class="">애니메이션 ({{category[1].size}})</a></li>
 {% endif %}
@@ -95,6 +102,10 @@
 {% for category in site.categories %}
 {% if category[0] == "MotorbaiTravel" %}
 <li><a href="/categories/MotorbaiTravel" class="">2023오토바이여행 ({{category[1].size}})</a></li>
+=======
+{% if category[0] == "2024IlbonJajeongeoYeohaeng" %}
+<li><a href="/categories/2024IlbonJajeongeoYeohaeng" class="">2024 일본 자전거 여행 ({{category[1].size}})</a></li>
+>>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
@@ -109,6 +120,7 @@
 
 <ul>
 {% for category in site.categories %}
+<<<<<<< HEAD
 {% if category[0] == "UDONGRAPHcourse" %}
 <li><a href="/categories/UDONGRAPHcourse" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
 {% endif %}
@@ -141,6 +153,8 @@
 
 <ul>
 {% for category in site.categories %}
+=======
+>>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% if category[0] == "C" %}
 <li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
 {% endif %}
@@ -149,8 +163,176 @@
 
 <ul>
 {% for category in site.categories %}
-{% if category[0] == "bicycle" %}
-<li><a href="/categories/bicycle" class="">자전거 ({{category[1].size}})</a></li>
+{% if category[0] == "C" %}
+<li><a href="/categories/C" class="">C++ ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "UdonGraphgangjwa" %}
+<li><a href="/categories/UdonGraphgangjwa" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "UdonSharpgangjwa" %}
+<li><a href="/categories/UdonSharpgangjwa" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "UdonSharpyeje" %}
+<li><a href="/categories/UdonSharpyeje" class="">UdonSharp예제 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Udongwanryeongeul" %}
+<li><a href="/categories/Udongwanryeongeul" class="">Udon관련글 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "VRchat" %}
+<li><a href="/categories/VRchat" class="">VRchat ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Gamseongmasjib" %}
+<li><a href="/categories/Gamseongmasjib" class="">감성맛집 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Gaeinpeurojegteu" %}
+<li><a href="/categories/Gaeinpeurojegteu" class="">개인프로젝트 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Geumyung" %}
+<li><a href="/categories/Geumyung" class="">금융 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Dareunpeurojegteugugyeong" %}
+<li><a href="/categories/Dareunpeurojegteugugyeong" class="">다른프로젝트구경 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Danpyeonuhwa" %}
+<li><a href="/categories/Danpyeonuhwa" class="">단편우화 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Deurama" %}
+<li><a href="/categories/Deurama" class="">드라마 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Memo" %}
+<li><a href="/categories/Memo" class="">메모 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Myeongsi" %}
+<li><a href="/categories/Myeongsi" class="">명시 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Aenimeisyeon" %}
+<li><a href="/categories/Aenimeisyeon" class="">애니메이션 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jajaggugeosajeon" %}
+<li><a href="/categories/Jajaggugeosajeon" class="">자작국어사전 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jajagsanmun" %}
+<li><a href="/categories/Jajagsanmun" class="">자작산문 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jajagsi" %}
+<li><a href="/categories/Jajagsi" class="">자작시 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jajeongeo" %}
+<li><a href="/categories/Jajeongeo" class="">자전거 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jeongsinnagan4keosmanhwa" %}
+<li><a href="/categories/Jeongsinnagan4keosmanhwa" class="">정신나간4컷만화 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Keomgong" %}
+<li><a href="/categories/Keomgong" class="">컴공 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Hoseodae" %}
+<li><a href="/categories/Hoseodae" class="">호서대 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
