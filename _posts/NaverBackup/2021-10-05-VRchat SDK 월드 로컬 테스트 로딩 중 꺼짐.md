@@ -1,10 +1,10 @@
+---
 title: "VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐"
 date: 2021-10-05
 categories:
  - VRchat
 naver_url: https://blog.naver.com/rage147-owo/222527879082
 ---
-#VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐 : 네이버 블로그
 
 필자는 VRchat SDK3 에서 로컬 테스트를 하는 중 꺼지는 문제가 생겼었다
 

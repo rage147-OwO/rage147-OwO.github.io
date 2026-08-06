@@ -1,10 +1,10 @@
+---
 title: "VRchat OX퀴즈 월드 코드(udonsharp)"
 date: 2021-09-27
 categories:
  - UdonSharpyeje
 naver_url: https://blog.naver.com/rage147-owo/222518478794
 ---
-#VRchat OX퀴즈 월드 코드(udonsharp) : 네이버 블로그
 
 필자는 VRchat의 OX퀴즈 월드를 만들었습니다.
 
@@ -632,18 +632,7 @@ if (time_temp < 5)//4초 이내
 
 udonsharp.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c6187efd1e8057008abfd02e464/y_eWP9BM3MjhmQBvA-c8dVPQcGufYmDeSTVq84Ma5AksT55hJqIlDr7qEl8OYBOmnJSIZCuEPOyrgpAbAUXR0g/udonsharp.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618ee2deef0e710ca6fa00e476/EFsQbLdDxrjO9d1YLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7f-_CIAOzUpz0UqPblTs0i0M775lJNVDv4Y71wP5IQ/udonsharp.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 메인입니다!
 
@@ -651,18 +640,7 @@ udonsharp.cs
 
 teleport.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c6187efd1e8057008abfd02e464/4xsK9r167S4yyO3jFDxSfKVrEpx401QbQAlYHldUvRqA3EH8PCVw-9MO8d55FqlPBVRO3n-B5y8SUuLSmpLUVA/teleport.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618ee2deef0e710ca6fa00e476/EFsQbLdDxrjO9tJQLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7va2CoEOjSx50iK0blTspTzHUstLPhuGXGqax7EwYg/teleport.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 텔레포트입니다!
 
@@ -670,18 +648,7 @@ teleport.cs
 
 reset.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416c8ae2dce5087d05a6f00fe98d/2Vd-SLJJoVMDNumwqpjmu_m2SsVInclklFbEcmp0YD4RsNhWXTq7koA6jOAoc7jpXTqh4tc6AKptESdP6eXfUw/reset.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416c83efd3e2037c01abf70de987/EFsQbLdDxrjO9Ns2E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0i7fq2D-9n0C9_3Q2dUkR0YexoTz9vDBsW3vxf-rlN/reset.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 리셋 큐브입니다!
 
@@ -689,18 +656,7 @@ reset.cs
 
 checkpeople.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103ddbb38db4592c54f7a15eb864/I1lgd7HUrQQ2wbkObeKGS0_Sm3Zic7_u-fYiG1Sj27Zw-guy_1mHSAs71hNem_pbA-AGKjT5_jjisCwhalV2GQ/checkpeople.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103dd2be82b3522d50faa65cb856/EFsQbLdDxrjO9d5dLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm6fm8CIEO4ilF3UKtblTsaxzTyEtgTof1Ir7FkwnDjQ/checkpeople.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 플레이어 수를 세는 코드입니다!(콜라이더)
 
@@ -710,18 +666,7 @@ checkpeople.cs
 
 music.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361bfd95ab927f0a72d187789f7a/td2PS8IRTxHC99Kmzuptr1a-_wlIGHs3NGVOxv-Hnakx14bTSvRj8Db8hB7X8azQpo9IZTWR6zw7hZfWaXVicA/music.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361bf498a495740b76dc807a9e6f/EFsQbLdDxrjO9dhYLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUn6_y2CoAO_W8n7E-JblTs1hca2Wu6zY3jKZhkYQ5SCQ/music.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 음악을 키고 끄는 기능입니다
 
@@ -729,18 +674,7 @@ music.cs
 
 soundeffect.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577a9cf4caf31e6b13b0e619fef1/CMPprnKWr0UwH-Y7ToWkfBFauX2RXn5R7m4iNHPy4LIjQg_W_IOkeKrWOzpgGZOarvoc3pvBtzBpgHpnE2FWOQ/soundeffect.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577a95f9c5f4156a17bde11bfeef/EFsQbLdDxrjO9dxbLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm5Pe8CIQO-l9_0D2yblTshLr3US_Zg3ENqtYu5BNgkw/soundeffect.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 배경 음악입니다
 
@@ -748,17 +682,6 @@ soundeffect.cs
 
 mirror.cs
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-27-VRchat OX퀴즈 월드 코드(udonsharp).md
-[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e33d5bd83ba57225af9af50b766/4L5NBH7lTZ-Bt6SmSKGZynEOkD3r0Cr4sXUG_Z79eK2bm6SdAlF3FDaYq_i6t2VPkYBQyTtKildDjFwy2WnQ2Q/mirror.cs)
-
-
-
-
- 
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e33dcb08cbd5c235ef4a852b76c/EFsQbLdDxrjO9d82E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0h7vm7D-9h1FNczUOdUkTQBXBNCP5ekCX9yNwkGoT7/mirror.cs)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-27-VRchat OX퀴즈 월드 코드(udonsharp).md
 
 거울입니다

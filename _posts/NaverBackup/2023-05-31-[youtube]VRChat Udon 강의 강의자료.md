@@ -1,10 +1,10 @@
+---
 title: "[youtube]VRChat Udon 강의 강의자료"
 date: 2023-05-31
 categories:
  - UdonGraphgangjwa
 naver_url: https://blog.naver.com/rage147-owo/223116511946
 ---
-#[youtube]VRChat Udon 강의 강의자료 : 네이버 블로그
 
 VRChat Unity 강의
 
@@ -63,9 +63,4 @@ naver.me](http://naver.me/FKxLDWX7)
 
 강의를 찍은지 1년도 넘었기에, 바뀐 부분이 있을 수 있습니다.
 
-<<<<<<< HEAD:_posts/NaverBackup/2023-5-31-[youtube]VRChat Udon 강의 강의자료.md
-​
-
-=======
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2023-05-31-[youtube]VRChat Udon 강의 강의자료.md
 댓글로 물어보거나 discord : rage147#2898 로 DM주세요!

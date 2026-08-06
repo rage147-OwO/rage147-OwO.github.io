@@ -1,10 +1,10 @@
+---
 title: "Pandas 관련 wiki docs"
 date: 2023-06-29
 categories:
  - AI
 naver_url: https://blog.naver.com/rage147-owo/223141893798
 ---
-#Pandas 관련 wiki docs : 네이버 블로그
 
 [금융 데이터 분석을 위한 파이썬 판다스](https://wikidocs.net/book/3488)
 

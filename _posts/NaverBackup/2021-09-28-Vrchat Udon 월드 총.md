@@ -1,10 +1,10 @@
+---
 title: "Vrchat Udon 월드 총"
 date: 2021-09-28
 categories:
  - UdonSharpyeje
 naver_url: https://blog.naver.com/rage147-owo/222519074141
 ---
-#Vrchat Udon 월드 총 : 네이버 블로그
 
 디스코드 rage147#2898
 
@@ -28,26 +28,7 @@ naver_url: https://blog.naver.com/rage147-owo/222519074141
 
 TeleportGun.unitypackage
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-28-Vrchat Udon 월드 총.md
-[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311cfa92ac95780d76da87799f85/YR0ba48RDipTiY_UTWtfzM40y8pvKGiqGZp1v_tI4-2i4LEdian-0QSMpuDgBBS_B0kGrhvgBJ4VXqF-SSxvTQ/TeleportGun.unitypackage)
-
-
-
-
- 
-
-
-
-[![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2021-9-28-Vrchat Udon 월드 총/0.png)](#)
-
-
-
-
-
-
-=======
 [파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311cf39fa392730c71d6887b9f73/EFsQbLdDxrfO_t02E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG4K8Un0m7f24Ce9p-ixH7TOdRFn2_BkR0BhfQyr4gXfRaISC9-o575DqDGelEQ/TeleportGun.unitypackage)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-28-Vrchat Udon 월드 총.md
 
 ![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/222519074141/e0a45244cf7e.png)
 
@@ -317,9 +298,4 @@ InputUse를 썼었습니다
 
 즉 물건을 잡지 않아도 총을 쏠 수 있었습니다;;
 
-<<<<<<< HEAD:_posts/NaverBackup/2021-9-28-Vrchat Udon 월드 총.md
-​
-
-=======
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2021-09-28-Vrchat Udon 월드 총.md
 이후 OnPickupUseDown()을 사용하니 해결되었습니다.

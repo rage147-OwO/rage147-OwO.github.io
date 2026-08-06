@@ -17,42 +17,16 @@
 
 <ul>
 {% for category in site.categories %}
-<<<<<<< HEAD
-{% if category[0] == "Japanesebicycletrip" %}
-<li><a href="/categories/Japanesebicycletrip" class="">2024일본자전거여행 ({{category[1].size}})</a></li>
-=======
 {% if category[0] == "GwaenchanhdauiKkeuteulChajaseo" %}
 <li><a href="/categories/GwaenchanhdauiKkeuteulChajaseo" class="">'괜찮다'의 끝을 찾아서 ({{category[1].size}})</a></li>
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
 
 <ul>
 {% for category in site.categories %}
-<<<<<<< HEAD
-{% if category[0] == "AeSongmyeongCity" %}
-<li><a href="/categories/AeSongmyeongCity" class="">애송명시 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "VRCHAT" %}
-<li><a href="/categories/VRCHAT" class="">VRchat ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "UDONSHARPcourse" %}
-<li><a href="/categories/UDONSHARPcourse" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
-=======
 {% if category[0] == "2019JajeongeoGugtojongju" %}
 <li><a href="/categories/2019JajeongeoGugtojongju" class="">2019 자전거 국토종주 ({{category[1].size}})</a></li>
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
@@ -67,45 +41,8 @@
 
 <ul>
 {% for category in site.categories %}
-<<<<<<< HEAD
-{% if category[0] == "animatedmovie" %}
-<li><a href="/categories/animatedmovie" class="">애니메이션 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "UDONrelatedarticle" %}
-<li><a href="/categories/UDONrelatedarticle" class="">Udon관련글 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "Comgong" %}
-<li><a href="/categories/Comgong" class="">컴공 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "personalproject" %}
-<li><a href="/categories/personalproject" class="">개인프로젝트 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "MotorbaiTravel" %}
-<li><a href="/categories/MotorbaiTravel" class="">2023오토바이여행 ({{category[1].size}})</a></li>
-=======
 {% if category[0] == "2024IlbonJajeongeoYeohaeng" %}
 <li><a href="/categories/2024IlbonJajeongeoYeohaeng" class="">2024 일본 자전거 여행 ({{category[1].size}})</a></li>
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% endif %}
 {% endfor %}
 </ul>
@@ -120,41 +57,6 @@
 
 <ul>
 {% for category in site.categories %}
-<<<<<<< HEAD
-{% if category[0] == "UDONGRAPHcourse" %}
-<li><a href="/categories/UDONGRAPHcourse" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "BicycleSoup" %}
-<li><a href="/categories/BicycleSoup" class="">2019자전거국토종주 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "UDONSHARPexample" %}
-<li><a href="/categories/UDONSHARPexample" class="">UdonSharp예제 ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-{% if category[0] == "CspecialCharspecialChar" %}
-<li><a href="/categories/CspecialCharspecialChar" class="">C++ ({{category[1].size}})</a></li>
-{% endif %}
-{% endfor %}
-</ul>
-
-<ul>
-{% for category in site.categories %}
-=======
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개)
 {% if category[0] == "C" %}
 <li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
 {% endif %}

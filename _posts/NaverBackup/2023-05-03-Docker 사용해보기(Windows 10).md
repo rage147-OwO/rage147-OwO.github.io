@@ -1,10 +1,10 @@
+---
 title: "Docker 사용해보기(Windows 10)"
 date: 2023-05-03
 categories:
  - Gaeinpeurojegteu
 naver_url: https://blog.naver.com/rage147-owo/223092164335
 ---
-#Docker 사용해보기(Windows 10) : 네이버 블로그
 
 > 들어가며
 >
@@ -87,12 +87,4 @@ getting-started 앱이 실행되었다
 
 일반적으로 하나의 이미지에 하나의 컨테이너를 사용하나
 
-<<<<<<< HEAD:_posts/NaverBackup/2023-5-3-Docker 사용해보기(Windows 10).md
 [도커 컴포즈(Docker Compose)](https://docs.docker.com/get-started/08_using_compose/)를 사용해서, 여러 개의 컨테이너를 정의하고, 실행하고, 관리 할 수 있다.
-
-​
-
-​
-=======
-[도커 컴포즈(Docker Compose)](https://docs.docker.com/get-started/08_using_compose/)를 사용해서, 여러 개의 컨테이너를 정의하고, 실행하고, 관리 할 수 있다.
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2023-05-03-Docker 사용해보기(Windows 10).md

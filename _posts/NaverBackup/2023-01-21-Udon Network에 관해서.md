@@ -1,10 +1,10 @@
+---
 title: "Udon Network에 관해서"
 date: 2023-01-21
 categories:
  - Udongwanryeongeul
 naver_url: https://blog.naver.com/rage147-owo/222990230516
 ---
-#Udon Network에 관해서 : 네이버 블로그
 
 *본 글은 VRChat 2023캘린더의 1월 17일 글입니다*
 
@@ -130,28 +130,7 @@ Allow Collision Ownership Transfer를 체크하면 다른 사람의 오브젝트
 
 장점: 픽업 오브젝트, Transform, Rigidbody 동기가 필요한 경우 간편하게 적용 할 수 있음
 
-<<<<<<< HEAD:_posts/NaverBackup/2023-1-21-Udon Network에 관해서.md
-
-
- 
-
-
-
-[![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/images/2023-1-21-Udon Network에 관해서/1.png)](#)
-
-
-
-
-
-
-
-
-장점: 픽업 오브젝트, Transform, Rigidbody 동기가 필요한 경우 간편하게 적용 할 수 있음
-
-단점: 
-=======
 단점:
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2023-01-21-Udon Network에 관해서.md
 
 싱크모드가 Continuous로 고정됨으로 해당 오브젝트의 우동 코드에 많은 싱크변수를 넣을 수 없습니다
 
@@ -413,18 +392,4 @@ VRChat을 하며 유니티를 배운지 벌써 2년이 지났습니다
 
 VRChat 월드 제작자 서버입니다. 월드 제작과 관련된 이야기를 나눠보세요! 월드 제작 뉴비분들도 환영합니다! | 377 members
 
-<<<<<<< HEAD:_posts/NaverBackup/2023-1-21-Udon Network에 관해서.md
-
 discord.gg](https://discord.gg/E8rF9uTggA)
-
-
-
-
- 
-
-
-
-​
-=======
-discord.gg](https://discord.gg/E8rF9uTggA)
->>>>>>> 9e32db15 (네이버 블로그 동기화 2026-08-07 06:59 — 글 272개):_posts/NaverBackup/2023-01-21-Udon Network에 관해서.md
