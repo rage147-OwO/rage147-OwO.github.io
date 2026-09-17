@@ -228,11 +228,13 @@ a { transition: color 0.15s ease; }
   pre.u147-ascii-logo {
     color: #7bffb0;
     text-shadow: 0 0 6px rgba($primary-color, 0.45), 0 0 16px rgba($primary-color, 0.15);
-    font-size: 15px;
+    font-size: 7.5px;
     line-height: 1.15;
     margin: 12px auto 6px;
     white-space: pre;
     overflow-x: auto;
+
+    @media (min-width: 900px) { font-size: 9.5px; }
   }
 
   .sub { font-size: 0.75em; color: $muted-text-color; letter-spacing: 0.5px; }
