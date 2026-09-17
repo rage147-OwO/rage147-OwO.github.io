@@ -35,6 +35,15 @@
   }
 
   video { max-width: 100%; height: auto; }
+
+  /* Naver's "one short sentence per line" writing style produces dozens of tiny
+     <p> tags plus many --- (<hr>) section breaks in a single post. At the theme's
+     default paragraph/hr/blockquote margins that turns into an enormous amount of
+     empty vertical space. Tighten those specifically for post bodies. */
+  p { margin-bottom: 0.55em; }
+  hr { margin: 0.6em 0; }
+  blockquote { margin: 0.8em 0.5em 0.8em 0; padding-top: 0.2em; padding-bottom: 0.2em; }
+  br + br { display: none; } /* collapse manually doubled line breaks */
 }
 
 ::selection {
