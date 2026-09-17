@@ -20,14 +20,11 @@ entries_layout: list
 
 <div class="u147-title-block">
   <div class="unit-id">TRACKED STATION // UNIT-147</div>
-<pre class="u147-ascii-logo">
-██████╗  █████╗  ██████╗ ███████╗ ██╗██╗  ██╗ ███████╗
-██╔══██╗██╔══██╗██╔════╝ ██╔════╝ ███║██║  ██║ ╚════██║
-██████╔╝███████║██║  ███╗█████╗   ╚██║███████║  █████╔╝
-██╔══██╗██╔══██║██║   ██║██╔══╝    ██║╚════██║ ██╔═══╝
-██║  ██║██║  ██║╚██████╔╝███████╗  ██║     ██║ ███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝  ╚═╝     ╚═╝ ╚══════╝
-</pre>
+<pre class="u147-ascii-logo">████   ███   ████ █████   █   █   █ █████
+█   █ █   █ █     █      ██   █   █     █
+████  █████ █  ██ ████    █   █████    █
+█  █  █   █ █   █ █       █       █   █
+█   █ █   █  ████ █████ █████     █   █  </pre>
   <div class="sub">PERSONAL UPLINK TERMINAL &middot; LOGGING SINCE 2016</div>
 </div>
 
@@ -56,14 +53,23 @@ entries_layout: list
   </div>
 
   <div class="u147-tpanel">
-    <div class="thead"><span>CLAUDE / LOL</span><span class="stub">// 연동 예정</span></div>
+    <div class="thead"><span>CLAUDE / LOL</span><span class="stub">{% if site.data.lol_recent %}{{ site.data.lol_recent.updated }}{% else %}// 연동 예정{% endif %}</span></div>
     <div class="u147-stub-panel">
       <div class="stub-row"><span>Claude 사용 시간 (7d)</span><span class="stub-val">-- h</span></div>
       <div class="stub-row"><span>가장 많이 쓴 도구</span><span class="stub-val">--</span></div>
-      <div class="stub-row"><span>LoL 최근 전적</span><span class="stub-val">--</span></div>
+      <div class="stub-row">
+        <span>LoL ({{ site.data.lol_recent.riot_id | default: "rage147#1004" }})</span>
+        <span class="stub-val">{{ site.data.lol_recent.tier | default: "--" }}</span>
+      </div>
     </div>
     <div class="u147-match-row">
-      <span>--</span><span>--</span><span>--</span><span>--</span><span>--</span>
+      {% if site.data.lol_recent.matches %}
+        {% for m in site.data.lol_recent.matches %}
+          <span class="{% if m.result == 'Victory' %}win{% elsif m.result == 'Defeat' %}loss{% endif %}" title="{{ m.duration }} · {{ m.kda }} KDA">{{ m.kda }}</span>
+        {% endfor %}
+      {% else %}
+        <span>--</span><span>--</span><span>--</span><span>--</span><span>--</span>
+      {% endif %}
     </div>
   </div>
 </div>

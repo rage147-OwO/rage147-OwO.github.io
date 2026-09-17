@@ -228,8 +228,8 @@ a { transition: color 0.15s ease; }
   pre.u147-ascii-logo {
     color: #7bffb0;
     text-shadow: 0 0 6px rgba($primary-color, 0.45), 0 0 16px rgba($primary-color, 0.15);
-    font-size: 11px;
-    line-height: 1.1;
+    font-size: 15px;
+    line-height: 1.15;
     margin: 12px auto 6px;
     white-space: pre;
     overflow-x: auto;
@@ -313,5 +313,10 @@ a { transition: color 0.15s ease; }
 
 .u147-match-row {
   display: flex; gap: 6px; margin-top: 8px;
-  span { flex: 1; text-align: center; font-size: 0.65em; padding: 4px 0; border: 1px solid $border-color; color: #1f4a30; }
+  span {
+    flex: 1; text-align: center; font-size: 0.65em; padding: 4px 0;
+    border: 1px solid $border-color; color: #1f4a30;
+  }
+  span.win { color: $primary-color; border-color: mix($primary-color, $border-color, 40%); }
+  span.loss { color: #ff6b6b; border-color: mix(#ff6b6b, $border-color, 40%); }
 }

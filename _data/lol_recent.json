@@ -1,0 +1,32 @@
+{
+  "riot_id": "rage147#1004",
+  "tier": "Platinum 2 86LP",
+  "matches": [
+    {
+      "result": "Victory",
+      "duration": "35m 39s",
+      "kda": "7/8/8"
+    },
+    {
+      "result": "Victory",
+      "duration": "26m 07s",
+      "kda": "5/5/11"
+    },
+    {
+      "result": "Victory",
+      "duration": "31m 12s",
+      "kda": "15/5/14"
+    },
+    {
+      "result": "Defeat",
+      "duration": "39m 08s",
+      "kda": "5/8/7"
+    },
+    {
+      "result": "Defeat",
+      "duration": "48m 13s",
+      "kda": "11/12/7"
+    }
+  ],
+  "updated": "2026-09-17 13:02"
+}
