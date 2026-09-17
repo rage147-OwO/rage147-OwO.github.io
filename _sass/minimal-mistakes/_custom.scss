@@ -13,6 +13,30 @@
   &:hover { background: $primary-color; }
 }
 
+/* ------------------------- post body: readable prose, not terminal chrome ------------------------- */
+/* The monospace terminal font is great for the dashboard/nav, but full-length blog
+   posts need a normal proportional font at a sane size, contained to a comfortable
+   reading width — otherwise lines run edge-to-edge and everything reads oversized. */
+.page__content {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+    "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 720px;
+
+  h1, h2, h3, h4, h5, h6 { font-family: inherit; }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.4em auto;
+    border-radius: 4px;
+  }
+
+  video { max-width: 100%; height: auto; }
+}
+
 ::selection {
   background: mix($primary-color, $background-color, 45%);
   color: #001008;
