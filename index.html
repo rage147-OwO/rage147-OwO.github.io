@@ -2,4 +2,135 @@
 layout: home
 sidebar_main: true
 author_profile: true
+entries_layout: list
 ---
+
+<div class="u147-readout">
+  <div class="row">
+    <div><span class="label">LAT</span>37.5665&deg; N</div>
+    <div><span class="label">LON</span>126.9780&deg; E</div>
+    <div><span class="label">ALT</span>0038M</div>
+  </div>
+  <div class="row">
+    <div><span class="label">SATELLITES</span>7</div>
+    <div><span class="label">LOCK</span><span class="u147-blink">ACQUIRED</span></div>
+    <div><span class="label">SIG</span>&#9650;&#9650;&#9650;&#9650;&#9650;&#9647;&#9647;</div>
+  </div>
+</div>
+
+<div class="u147-title-block">
+  <div class="unit-id">TRACKED STATION // UNIT-147</div>
+<pre class="u147-ascii-logo">
+██████╗  █████╗  ██████╗ ███████╗ ██╗██╗  ██╗ ███████╗
+██╔══██╗██╔══██╗██╔════╝ ██╔════╝ ███║██║  ██║ ╚════██║
+██████╔╝███████║██║  ███╗█████╗   ╚██║███████║  █████╔╝
+██╔══██╗██╔══██║██║   ██║██╔══╝    ██║╚════██║ ██╔═══╝
+██║  ██║██║  ██║╚██████╔╝███████╗  ██║     ██║ ███████╗
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝  ╚═╝     ╚═╝ ╚══════╝
+</pre>
+  <div class="sub">PERSONAL UPLINK TERMINAL &middot; LOGGING SINCE 2016</div>
+</div>
+
+<div class="u147-sec-head">
+  <span class="tag">TELEMETRY</span>
+  <h2>통계</h2>
+</div>
+
+<div class="u147-telemetry">
+  <div class="u147-tpanel">
+    <div class="thead"><span>POST DISTRIBUTION // 12mo</span><span class="stub">{{ site.posts.size }} total</span></div>
+    <div class="u147-barchart" id="u147PostChart"></div>
+    <div class="u147-barchart-labels" id="u147PostLabels"></div>
+  </div>
+
+  <div class="u147-tpanel">
+    <div class="thead"><span>GIT ACTIVITY // 26wk</span><span class="stub" id="u147GitStatus">loading…</span></div>
+    <div class="u147-heat-grid" id="u147HeatGrid"></div>
+    <div class="u147-stub-tag">SOURCE: github public contributions (rage147-OwO)</div>
+  </div>
+
+  <div class="u147-tpanel">
+    <div class="thead"><span>SYSTEM USAGE BY HOUR</span><span class="stub" id="u147UsageStatus">{% if site.data.pc_usage %}synced{% else %}대기 중{% endif %}</span></div>
+    <div class="u147-hour-bars" id="u147HourBars"></div>
+    <div class="u147-stub-tag">SOURCE: local uptime tracker{% if site.data.pc_usage %} · last sync {{ site.data.pc_usage.updated }}{% else %} — not yet synced{% endif %}</div>
+  </div>
+
+  <div class="u147-tpanel">
+    <div class="thead"><span>CLAUDE / LOL</span><span class="stub">// 연동 예정</span></div>
+    <div class="u147-stub-panel">
+      <div class="stub-row"><span>Claude 사용 시간 (7d)</span><span class="stub-val">-- h</span></div>
+      <div class="stub-row"><span>가장 많이 쓴 도구</span><span class="stub-val">--</span></div>
+      <div class="stub-row"><span>LoL 최근 전적</span><span class="stub-val">--</span></div>
+    </div>
+    <div class="u147-match-row">
+      <span>--</span><span>--</span><span>--</span><span>--</span><span>--</span>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  // POST DISTRIBUTION — real counts per month from the last 12 months of site.posts
+  var posts = [
+    {% for post in site.posts %}"{{ post.date | date: '%Y-%m' }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+  ];
+  var now = new Date();
+  var months = [];
+  for (var i = 11; i >= 0; i--) {
+    var d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    months.push({ key: d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0'), label: (d.getMonth() + 1) + '' });
+  }
+  var counts = months.map(function (m) {
+    return posts.filter(function (p) { return p === m.key; }).length;
+  });
+  var max = Math.max.apply(null, counts.concat([1]));
+  var chart = document.getElementById('u147PostChart');
+  var labels = document.getElementById('u147PostLabels');
+  months.forEach(function (m, i) {
+    var bar = document.createElement('div');
+    bar.className = 'bar';
+    var b = document.createElement('b');
+    b.style.height = Math.max(4, (counts[i] / max) * 100) + '%';
+    bar.appendChild(b);
+    chart.appendChild(bar);
+    var lab = document.createElement('span');
+    lab.textContent = m.label;
+    labels.appendChild(lab);
+  });
+
+  // GIT ACTIVITY — real data from a public, unauthenticated GitHub contributions API
+  // (no token needed since it just mirrors what's already public on the profile page)
+  var heat = document.getElementById('u147HeatGrid');
+  var gitStatus = document.getElementById('u147GitStatus');
+  fetch('https://github-contributions-api.jogruber.de/v4/rage147-OwO?y=last')
+    .then(function (r) { if (!r.ok) throw new Error('bad response'); return r.json(); })
+    .then(function (data) {
+      var days = data.contributions.slice(-26 * 7); // last ~26 weeks
+      days.forEach(function (d) {
+        var cell = document.createElement('i');
+        if (d.level >= 1) cell.className = 'l' + Math.min(d.level, 4);
+        cell.title = d.date + ' · ' + d.count + ' commits';
+        heat.appendChild(cell);
+      });
+      gitStatus.textContent = data.total.lastYear + ' / yr';
+    })
+    .catch(function () {
+      gitStatus.textContent = 'offline';
+      heat.innerHTML = '';
+      for (var g = 0; g < 26 * 7; g++) heat.appendChild(document.createElement('i'));
+    });
+
+  // SYSTEM USAGE BY HOUR — reads _data/pc_usage.json, written by the local tracker
+  // (bin/pc_usage_tracker.py) and synced in by `publish`/`blog_archiver.py sync`.
+  // Until that has run at least once, this renders an empty (all-zero) row rather than fake data.
+  var hb = document.getElementById('u147HourBars');
+  var hourly = {{ site.data.pc_usage.hours | default: "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]" | jsonify }};
+  var hmax = Math.max.apply(null, hourly.concat([1]));
+  hourly.forEach(function (v) {
+    var bar = document.createElement('div');
+    bar.className = 'hb';
+    bar.style.height = Math.max(2, v / hmax * 100) + '%';
+    hb.appendChild(bar);
+  });
+})();
+</script>

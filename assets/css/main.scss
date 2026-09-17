@@ -4,6 +4,29 @@
 
 @charset "utf-8";
 
+/* UNIT-147 uplink terminal palette — overrides skin defaults below (must precede the skin import) */
+$sans-serif: "Consolas", "D2Coding", "Courier New", ui-monospace, monospace !default;
+$sans-serif-narrow: $sans-serif !default;
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$monospace: "Consolas", "D2Coding", "Courier New", monospace !default;
+
+$background-color: #000000 !default;
+$text-color: #8fd9b2 !default;
+$muted-text-color: #3a7a54 !default;
+$primary-color: #4dff88 !default;
+$border-color: #235c3b !default;
+$code-background-color: #06170d !default;
+$code-background-color-dark: #0a2015 !default;
+$form-background-color: #06170d !default;
+$footer-background-color: #000000 !default;
+$link-color: $primary-color !default;
+$link-color-hover: #a9ffcc !default;
+$link-color-visited: #2f8a56 !default;
+$masthead-link-color: #7bffb0 !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: #06170d !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import "minimal-mistakes/custom"; // site-specific design polish

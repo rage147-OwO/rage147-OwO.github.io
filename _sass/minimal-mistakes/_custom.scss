@@ -1,0 +1,317 @@
+/* ==========================================================================
+   UNIT-147 — personal uplink terminal
+   ========================================================================== */
+
+* {
+  scrollbar-color: $border-color $background-color;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: $background-color; }
+::-webkit-scrollbar-thumb {
+  background: $border-color;
+  &:hover { background: $primary-color; }
+}
+
+::selection {
+  background: mix($primary-color, $background-color, 45%);
+  color: #001008;
+}
+
+body {
+  letter-spacing: 0.2px;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba($primary-color, 0.025) 0px,
+    rgba($primary-color, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 500;
+}
+
+a { transition: color 0.15s ease; }
+
+/* ------------------------------- masthead: readout bar ------------------------------- */
+
+.masthead {
+  border-bottom: 1px solid $border-color;
+  background-color: $background-color;
+
+  &__inner-wrap {
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+  }
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-shadow: 0 0 6px rgba($primary-color, 0.35);
+}
+
+.site-subtitle {
+  color: $muted-text-color;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+
+/* ------------------------------- buttons ---------------------------------- */
+
+.btn {
+  border-radius: 0;
+  letter-spacing: 2px;
+  font-size: 0.75em;
+}
+
+.btn--primary {
+  background-color: transparent;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background-color: $primary-color;
+    color: #001008;
+    box-shadow: 0 0 10px rgba($primary-color, 0.4);
+  }
+}
+
+/* ------------------------------ section labels ------------------------------ */
+
+.archive__subtitle {
+  color: #a9ffcc;
+  font-size: 0.95em;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-bottom: 1px dashed $border-color;
+  padding-bottom: 8px;
+
+  &::before {
+    content: "LOG // ";
+    color: $muted-text-color;
+    font-size: 0.75em;
+  }
+}
+
+/* ------------------------------ archive: log rows ------------------------------ */
+
+.archive__item {
+  border-bottom: 1px solid #101f16;
+  padding: 0.7em 0.4em;
+  transition: background-color 0.15s ease;
+
+  &:hover { background-color: #06170d; }
+}
+
+.archive__item-teaser {
+  border: 1px solid $border-color;
+  overflow: hidden;
+}
+
+.archive__item-title {
+  margin-top: 0.2em;
+  font-size: 1em;
+
+  a {
+    color: #cdfff0;
+    &:hover { color: $primary-color; text-shadow: 0 0 6px rgba($primary-color, .5); }
+  }
+}
+
+.archive__item-excerpt {
+  color: $muted-text-color;
+  font-size: 0.85em;
+}
+
+.page__meta {
+  color: $muted-text-color;
+  font-size: 0.75em;
+  letter-spacing: 0.5px;
+}
+
+.page__taxonomy-item a,
+.taxonomy__index li a {
+  color: $primary-color;
+  background: transparent;
+  border: 1px solid $border-color;
+  padding: 1px 8px;
+  border-radius: 0;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+
+  &:hover { background: $primary-color; color: #001008; }
+}
+
+/* ---------------------------- sidebar / author ------------------------------ */
+
+.author__avatar img {
+  border: 1px solid $primary-color;
+  border-radius: 0;
+}
+
+.author__name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.author__bio { color: $muted-text-color; font-size: 0.85em; }
+
+.sidebar .author__urls.social-icons a {
+  transition: transform 0.15s ease, color 0.15s ease;
+  &:hover { color: $primary-color; transform: translateY(-2px); }
+}
+
+/* -------------------------------- footer ------------------------------------ */
+
+.page__footer {
+  border-top: 1px solid $border-color;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+}
+
+/* ------------------------------ pagination ----------------------------------- */
+
+.pagination li a {
+  border-radius: 0;
+  border-color: $border-color;
+  &:hover { border-color: $primary-color; color: $primary-color; }
+}
+.pagination li .current {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: #001008;
+}
+
+/* -------------------------------- code blocks --------------------------------- */
+
+.highlight, div.highlighter-rouge {
+  border: 1px solid $border-color;
+  border-radius: 0;
+}
+
+/* ==========================================================================
+   UNIT-147 hero — ascii logo, readout bar, telemetry (homepage only)
+   ========================================================================== */
+
+.u147-readout {
+  border: 1px solid $border-color;
+  padding: 14px 18px;
+  font-size: 0.75em;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px 24px;
+  margin-bottom: 30px;
+
+  .row { display: flex; gap: 24px; flex-wrap: wrap; }
+  .label { color: $muted-text-color; margin-right: 6px; }
+}
+
+.u147-blink { animation: u147-blink 1.6s steps(2, start) infinite; }
+@keyframes u147-blink { 50% { opacity: 0.25; } }
+
+.u147-title-block {
+  text-align: center;
+  margin: 10px 0 34px;
+
+  .unit-id { font-size: 0.7em; color: $muted-text-color; letter-spacing: 3px; }
+
+  pre.u147-ascii-logo {
+    color: #7bffb0;
+    text-shadow: 0 0 6px rgba($primary-color, 0.45), 0 0 16px rgba($primary-color, 0.15);
+    font-size: 11px;
+    line-height: 1.1;
+    margin: 12px auto 6px;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  .sub { font-size: 0.75em; color: $muted-text-color; letter-spacing: 0.5px; }
+}
+
+.u147-sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 1px dashed $border-color;
+  padding-bottom: 8px;
+  margin: 40px 0 14px;
+
+  .tag { font-size: 0.7em; color: $muted-text-color; letter-spacing: 1px; }
+  h2 { font-size: 0.95em; letter-spacing: 3px; margin: 0; color: #a9ffcc; font-weight: 600; }
+}
+
+.u147-telemetry {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 14px;
+  margin-bottom: 10px;
+
+  @media (max-width: 720px) { grid-template-columns: 1fr; }
+}
+
+.u147-tpanel {
+  border: 1px solid $border-color;
+  padding: 14px 16px 16px;
+
+  .thead {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 0.68em; color: $muted-text-color; letter-spacing: 1px; margin-bottom: 12px;
+    .stub { color: #1f4a30; }
+  }
+}
+
+.u147-barchart {
+  display: flex; align-items: flex-end; gap: 6px; height: 90px; margin-bottom: 6px;
+
+  .bar { flex: 1; height: 100%; background: #123c26; position: relative; }
+  .bar b { display: block; width: 100%; background: $primary-color; box-shadow: 0 0 6px rgba($primary-color, .35); }
+}
+.u147-barchart-labels {
+  display: flex; gap: 6px; font-size: 0.6em; color: $muted-text-color;
+  span { flex: 1; text-align: center; }
+}
+
+.u147-stub-panel {
+  font-size: 0.75em; color: $muted-text-color; line-height: 1.7;
+
+  .stub-row {
+    display: flex; justify-content: space-between; padding: 4px 0;
+    border-bottom: 1px dashed #101f16;
+    &:last-child { border-bottom: none; }
+  }
+  .stub-val { color: #1f4a30; }
+}
+.u147-stub-tag {
+  display: inline-block; font-size: 0.6em; letter-spacing: 1px; color: #5c3a1f;
+  border: 1px solid #4a2c14; padding: 1px 6px; margin-top: 10px;
+}
+
+.u147-heat-grid {
+  display: grid; grid-template-columns: repeat(26, 1fr); gap: 3px; margin-bottom: 8px;
+
+  i { display: block; padding-top: 100%; background: #0e2417; }
+  i.l1 { background: #123c26; }
+  i.l2 { background: #1c6b3f; }
+  i.l3 { background: #2f9a56; }
+  i.l4 { background: $primary-color; box-shadow: 0 0 3px rgba($primary-color, .5); }
+}
+
+.u147-hour-bars {
+  display: flex; align-items: flex-end; gap: 2px; height: 60px;
+  .hb { flex: 1; background: $primary-color; opacity: .75; }
+}
+
+.u147-match-row {
+  display: flex; gap: 6px; margin-top: 8px;
+  span { flex: 1; text-align: center; font-size: 0.65em; padding: 4px 0; border: 1px solid $border-color; color: #1f4a30; }
+}
