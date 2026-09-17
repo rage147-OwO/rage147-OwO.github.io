@@ -25,8 +25,24 @@
 
 <ul>
 {% for category in site.categories %}
+{% if category[0] == "001" %}
+<li><a href="/categories/001" class="">001 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
 {% if category[0] == "2019JajeongeoGugtojongju" %}
 <li><a href="/categories/2019JajeongeoGugtojongju" class="">2019 자전거 국토종주 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "2022ilgi" %}
+<li><a href="/categories/2022ilgi" class="">2022일기 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -41,8 +57,40 @@
 
 <ul>
 {% for category in site.categories %}
+{% if category[0] == "2023ilgi" %}
+<li><a href="/categories/2023ilgi" class="">2023일기 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
 {% if category[0] == "2024IlbonJajeongeoYeohaeng" %}
 <li><a href="/categories/2024IlbonJajeongeoYeohaeng" class="">2024 일본 자전거 여행 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "2024ilgi" %}
+<li><a href="/categories/2024ilgi" class="">2024일기 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "2025" %}
+<li><a href="/categories/2025" class="">2025 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "2026" %}
+<li><a href="/categories/2026" class="">2026 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -121,6 +169,14 @@
 
 <ul>
 {% for category in site.categories %}
+{% if category[0] == "GamsseuMenheraSeries" %}
+<li><a href="/categories/GamsseuMenheraSeries" class="">감쓰MenheraSeries ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
 {% if category[0] == "Gaeinpeurojegteu" %}
 <li><a href="/categories/Gaeinpeurojegteu" class="">개인프로젝트 ({{category[1].size}})</a></li>
 {% endif %}
@@ -129,8 +185,40 @@
 
 <ul>
 {% for category in site.categories %}
+{% if category[0] == "Geim" %}
+<li><a href="/categories/Geim" class="">게임 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "GwichanhjimanYeonaeneunHagosipeo" %}
+<li><a href="/categories/GwichanhjimanYeonaeneunHagosipeo" class="">귀찮지만 연애는 하고싶어 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
 {% if category[0] == "Geumyung" %}
 <li><a href="/categories/Geumyung" class="">금융 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Gita" %}
+<li><a href="/categories/Gita" class="">기타 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Naedonnaesan" %}
+<li><a href="/categories/Naedonnaesan" class="">내돈내산 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -177,8 +265,48 @@
 
 <ul>
 {% for category in site.categories %}
+{% if category[0] == "Baikeu" %}
+<li><a href="/categories/Baikeu" class="">바이크 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Saenggag" %}
+<li><a href="/categories/Saenggag" class="">생각 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
 {% if category[0] == "Aenimeisyeon" %}
 <li><a href="/categories/Aenimeisyeon" class="">애니메이션 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Yeonghwa" %}
+<li><a href="/categories/Yeonghwa" class="">영화 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Yori" %}
+<li><a href="/categories/Yori" class="">요리 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Eumag" %}
+<li><a href="/categories/Eumag" class="">음악 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -219,6 +347,22 @@
 {% for category in site.categories %}
 {% if category[0] == "Jeongsinnagan4keosmanhwa" %}
 <li><a href="/categories/Jeongsinnagan4keosmanhwa" class="">정신나간4컷만화 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jusig" %}
+<li><a href="/categories/Jusig" class="">주식 ({{category[1].size}})</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<ul>
+{% for category in site.categories %}
+{% if category[0] == "Jibchag" %}
+<li><a href="/categories/Jibchag" class="">집착 ({{category[1].size}})</a></li>
 {% endif %}
 {% endfor %}
 </ul>
