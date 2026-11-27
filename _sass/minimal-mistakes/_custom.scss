@@ -285,6 +285,53 @@ a { transition: color 0.15s ease; }
   h2 { font-size: 0.95em; letter-spacing: 3px; margin: 0; color: #a9ffcc; font-weight: 600; }
 }
 
+.u147-service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  max-width: 32rem;
+  padding: 16px;
+  border: 1px solid $border-color;
+  color: $text-color;
+  overflow-wrap: break-word;
+}
+
+a.u147-service-card {
+  &,
+  &:visited {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: $primary-color;
+    background: rgba($primary-color, 0.08);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 3px;
+  }
+
+  .u147-service-title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+.u147-service-title {
+  color: #a9ffcc;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.u147-service-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .u147-telemetry {
   display: grid;
   grid-template-columns: 1.3fr 1fr;

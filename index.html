@@ -34,6 +34,18 @@ entries_layout: list
   <div class="sub">PERSONAL UPLINK TERMINAL &middot; LOGGING SINCE 2016</div>
 </div>
 
+{% if paginator == nil or paginator.page == 1 %}
+<section aria-labelledby="services-title">
+  <div class="u147-sec-head">
+    <h2 id="services-title">내 서비스</h2>
+  </div>
+  <a class="u147-service-card" href="https://rage147-owo.github.io/MovieReRelease/">
+    <span class="u147-service-title">영화 재개봉 알리미</span>
+    <span class="u147-service-description">재개봉 영화와 상영 일정을 확인할 수 있습니다.</span>
+  </a>
+</section>
+{% endif %}
+
 <div class="u147-sec-head">
   <span class="tag">TELEMETRY</span>
   <h2>통계</h2>
