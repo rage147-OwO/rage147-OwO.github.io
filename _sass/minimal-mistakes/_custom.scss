@@ -202,6 +202,29 @@ a { transition: color 0.15s ease; }
   &:hover { color: $primary-color; transform: translateY(-2px); }
 }
 
+@include breakpoint(max-width $large - 1px) {
+  .nav__list #ac-toc {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+
+    &:focus-visible + label {
+      outline: 2px solid $primary-color;
+      outline-offset: 3px;
+    }
+
+    & ~ .nav__items {
+      transition-property: max-height, opacity, margin-top, transform;
+    }
+
+    &:not(:checked) ~ .nav__items { visibility: hidden; }
+  }
+}
+
 /* -------------------------------- footer ------------------------------------ */
 
 .page__footer {
@@ -258,7 +281,16 @@ a { transition: color 0.15s ease; }
 
   .unit-id { font-size: 0.7em; color: $muted-text-color; letter-spacing: 3px; }
 
+  .u147-wordmark {
+    margin: 12px 0 6px;
+    color: #7bffb0;
+    font-size: 2em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 6px rgba($primary-color, 0.45);
+  }
+
   pre.u147-ascii-logo {
+    display: none;
     color: #7bffb0;
     text-shadow: 0 0 6px rgba($primary-color, 0.45), 0 0 16px rgba($primary-color, 0.15);
     font-size: 6.5px;
@@ -268,6 +300,19 @@ a { transition: color 0.15s ease; }
     overflow-x: auto;
 
     @media (min-width: 900px) { font-size: 9px; }
+  }
+
+  @media (min-width: 600px) {
+    .u147-wordmark {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: 0;
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
+    }
+
+    pre.u147-ascii-logo { display: block; }
   }
 
   .sub { font-size: 0.75em; color: $muted-text-color; letter-spacing: 0.5px; }
@@ -357,14 +402,13 @@ a.u147-service-card {
   .thead {
     display: flex; justify-content: space-between; align-items: baseline;
     font-size: 0.68em; color: $muted-text-color; letter-spacing: 1px; margin-bottom: 12px;
-    .stub { color: #1f4a30; }
   }
 }
 
 .u147-barchart {
   display: flex; align-items: flex-end; gap: 6px; height: 90px; margin-bottom: 6px;
 
-  .bar { flex: 1; height: 100%; background: #123c26; position: relative; }
+  .bar { flex: 1; display: flex; align-items: flex-end; height: 100%; background: #123c26; }
   .bar b { display: block; width: 100%; background: $primary-color; box-shadow: 0 0 6px rgba($primary-color, .35); }
 }
 .u147-barchart-labels {
@@ -388,7 +432,12 @@ a.u147-service-card {
 }
 
 .u147-heat-grid {
-  display: grid; grid-template-columns: repeat(26, 1fr); gap: 3px; margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: repeat(26, 1fr);
+  grid-template-rows: repeat(7, auto);
+  grid-auto-flow: column;
+  gap: 3px;
+  margin-bottom: 8px;
 
   i { display: block; padding-top: 100%; background: #0e2417; }
   i.l1 { background: #123c26; }

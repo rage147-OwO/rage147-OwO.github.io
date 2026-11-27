@@ -5,6 +5,7 @@ author_profile: true
 entries_layout: list
 ---
 
+{% if paginator == nil or paginator.page == 1 %}
 <div class="u147-readout">
   <div class="row">
     <div><span class="label">LAT</span>37.5665&deg; N</div>
@@ -20,7 +21,8 @@ entries_layout: list
 
 <div class="u147-title-block">
   <div class="unit-id">TRACKED STATION // UNIT-147</div>
-<pre class="u147-ascii-logo"> .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
+  <h1 id="page-title" class="u147-wordmark">RAGE147</h1>
+<pre class="u147-ascii-logo" aria-hidden="true"> .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
 | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
 | |  _______     | || |      __      | || |    ______    | || |  _________   | || |     __       | || |   _    _     | || |   _______    | |
 | | |_   __ \    | || |     /  \     | || |  .' ___  |   | || | |_   ___  |  | || |    /  |      | || |  | |  | |    | || |  |  ___  |   | |
@@ -34,7 +36,6 @@ entries_layout: list
   <div class="sub">PERSONAL UPLINK TERMINAL &middot; LOGGING SINCE 2016</div>
 </div>
 
-{% if paginator == nil or paginator.page == 1 %}
 <section aria-labelledby="services-title">
   <div class="u147-sec-head">
     <h2 id="services-title">내 서비스</h2>
@@ -50,7 +51,6 @@ entries_layout: list
     </a>
   </div>
 </section>
-{% endif %}
 
 <div class="u147-sec-head">
   <span class="tag">TELEMETRY</span>
@@ -65,15 +65,15 @@ entries_layout: list
   </div>
 
   <div class="u147-tpanel">
-    <div class="thead"><span>GIT ACTIVITY // 26wk</span><span class="stub" id="u147GitStatus">loading…</span></div>
+    <div class="thead"><span>GIT ACTIVITY // 26wk</span><span class="stub" id="u147GitStatus" role="status">loading…</span></div>
     <div class="u147-heat-grid" id="u147HeatGrid"></div>
     <div class="u147-stub-tag">SOURCE: github public contributions (rage147-OwO)</div>
   </div>
 
   <div class="u147-tpanel">
-    <div class="thead"><span>SYSTEM USAGE BY HOUR</span><span class="stub" id="u147UsageStatus">{% if site.data.pc_usage %}synced{% else %}대기 중{% endif %}</span></div>
+    <div class="thead"><span>SYSTEM USAGE BY HOUR</span><span class="stub" id="u147UsageStatus">대기 중</span></div>
     <div class="u147-hour-bars" id="u147HourBars"></div>
-    <div class="u147-stub-tag">SOURCE: local uptime tracker{% if site.data.pc_usage %} · last sync {{ site.data.pc_usage.updated }}{% else %} — not yet synced{% endif %}</div>
+    <div class="u147-stub-tag">SOURCE: local uptime tracker <span id="u147UsageSync" data-updated="{{ site.data.pc_usage.updated | escape }}">— not yet synced</span></div>
   </div>
 
   <div class="u147-tpanel">
@@ -120,7 +120,7 @@ entries_layout: list
     var bar = document.createElement('div');
     bar.className = 'bar';
     var b = document.createElement('b');
-    b.style.height = Math.max(4, (counts[i] / max) * 100) + '%';
+    b.style.height = (counts[i] / max) * 100 + '%';
     bar.appendChild(b);
     chart.appendChild(bar);
     var lab = document.createElement('span');
@@ -132,35 +132,60 @@ entries_layout: list
   // (no token needed since it just mirrors what's already public on the profile page)
   var heat = document.getElementById('u147HeatGrid');
   var gitStatus = document.getElementById('u147GitStatus');
-  fetch('https://github-contributions-api.jogruber.de/v4/rage147-OwO?y=last')
+  var windowDays = 26 * 7;
+  var controller = new AbortController();
+  var timeout = setTimeout(function () { controller.abort(); }, 8000);
+  fetch('https://github-contributions-api.jogruber.de/v4/rage147-OwO?y=last', { signal: controller.signal })
     .then(function (r) { if (!r.ok) throw new Error('bad response'); return r.json(); })
     .then(function (data) {
-      var days = data.contributions.slice(-26 * 7); // last ~26 weeks
+      if (!Array.isArray(data.contributions) || data.contributions.length < windowDays) {
+        throw new Error('incomplete contribution data');
+      }
+      var days = data.contributions.slice(-windowDays);
+      var total = 0;
+      var cells = document.createDocumentFragment();
       days.forEach(function (d) {
+        if (typeof d.date !== 'string' || !Number.isFinite(d.count) || d.count < 0) {
+          throw new Error('invalid contribution data');
+        }
         var cell = document.createElement('i');
         if (d.level >= 1) cell.className = 'l' + Math.min(d.level, 4);
-        cell.title = d.date + ' · ' + d.count + ' commits';
-        heat.appendChild(cell);
+        cell.title = d.date + ' · ' + d.count + ' contributions';
+        cells.appendChild(cell);
+        total += d.count;
       });
-      gitStatus.textContent = data.total.lastYear + ' / yr';
+      heat.appendChild(cells);
+      gitStatus.textContent = total + ' / 26wk';
     })
     .catch(function () {
       gitStatus.textContent = 'offline';
-      heat.innerHTML = '';
-      for (var g = 0; g < 26 * 7; g++) heat.appendChild(document.createElement('i'));
-    });
+      for (var g = 0; g < windowDays; g++) heat.appendChild(document.createElement('i'));
+    })
+    .finally(function () { clearTimeout(timeout); });
 
   // SYSTEM USAGE BY HOUR — reads _data/pc_usage.json, written by the local tracker
   // (bin/pc_usage_tracker.py) and synced in by `publish`/`blog_archiver.py sync`.
   // Until that has run at least once, this renders an empty (all-zero) row rather than fake data.
   var hb = document.getElementById('u147HourBars');
-  var hourly = {{ site.data.pc_usage.hours | default: "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]" | jsonify }};
+  var hourly = {% if site.data.pc_usage.hours %}{{ site.data.pc_usage.hours | jsonify }}{% else %}null{% endif %};
+  var hasHourlyData = Array.isArray(hourly) && hourly.length === 24 && hourly.every(function (v) {
+    return Number.isFinite(v) && v >= 0;
+  });
+  if (hasHourlyData) {
+    document.getElementById('u147UsageStatus').textContent = 'synced';
+    var usageSync = document.getElementById('u147UsageSync');
+    var updated = usageSync.dataset.updated;
+    usageSync.textContent = updated ? '· last sync ' + updated : '';
+  } else {
+    hourly = new Array(24).fill(0);
+  }
   var hmax = Math.max.apply(null, hourly.concat([1]));
   hourly.forEach(function (v) {
     var bar = document.createElement('div');
     bar.className = 'hb';
-    bar.style.height = Math.max(2, v / hmax * 100) + '%';
+    bar.style.height = v / hmax * 100 + '%';
     hb.appendChild(bar);
   });
 })();
 </script>
+{% endif %}

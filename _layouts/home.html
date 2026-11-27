@@ -4,7 +4,12 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% assign recent_posts_title = site.data.ui-text[site.locale].recent_posts | default: 'Recent Posts' %}
+{% if paginator.page > 1 %}
+  <h1 id="page-title" class="archive__subtitle">{{ recent_posts_title }}</h1>
+{% else %}
+  <h2 class="archive__subtitle">{{ recent_posts_title }}</h2>
+{% endif %}
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
