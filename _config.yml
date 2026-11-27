@@ -20,9 +20,9 @@ title                    : "rage 147의 블로그"
 title_separator          : "-"
 subtitle                 : 
 name                     : "rage 147"
-description              : 
-url                      : "https://rage147-OwO.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+description              : "rage147이 프로그래밍, 개인 프로젝트, 자전거 여행과 창작을 기록하는 블로그"
+url                      : "https://rage147-owo.github.io"
+baseurl                  : "" # site is hosted at the domain root
 repository               : rage147-OwO/rage147-OwO.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -90,7 +90,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://github.com/rage147-OwO"
+    - "https://blog.naver.com/rage147-owo"
 
 # Analytics
 analytics:
@@ -102,7 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : 
+  name             : "rage147"
+  home             : /about/
   avatar           : https://rage147-owo.github.io/portfolio/imgs/avatar.jpg
   bio              : <a href="https://blog.naver.com/rage147-owo" target="_blank">네이버 블로그에서<br> 개발글만 연동됩니다. blog.naver.com/rage147-owo</a>
   email            : 

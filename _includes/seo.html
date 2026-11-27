@@ -17,7 +17,7 @@
 {% if page.canonical_url %}
   {%- assign canonical_url = page.canonical_url %}
 {% else %}
-  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+  {%- assign canonical_url = page.url | replace: '/index.html', '/' | absolute_url %}
 {% endif %}
 
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
@@ -25,8 +25,11 @@
   {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
 {%- endif -%}
 
-{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
+{%- assign post_author = page.author | default: page.authors[0] -%}
+{%- assign author = post_author | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%}
+{%- assign profile_url = site.author.home | absolute_url -%}
+{%- assign profile_id = profile_url | append: '#person' -%}
 
 {%- if author.twitter -%}
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
@@ -38,9 +41,6 @@
 {%- assign page_teaser_image = page.header.teaser | default: site.og_image | absolute_url -%}
 {%- assign page_teaser_image = page_teaser_image | escape -%}
 
-{%- assign site_og_image = site.og_image | absolute_url -%}
-{%- assign site_og_image = site_og_image | escape -%}
-
 {%- if page.date -%}
   {%- assign og_type = "article" -%}
 {%- else -%}
@@ -51,9 +51,9 @@
 <meta name="description" content="{{ seo_description }}">
 
 {% if author.name %}
-  <meta name="author" content="{{ author.name | default: author }}">
+  <meta name="author" content="{{ author.name | escape }}">
   {% if og_type == "article" %}
-  <meta property="article:author" content="{{ author.name | default: author }}">
+  <meta property="article:author" content="{{ author.name | escape }}">
   {% endif %}
 {% endif %}
 
@@ -61,7 +61,7 @@
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:url" content="{{ canonical_url | escape_once }}">
 
 {% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
@@ -112,7 +112,8 @@
   {% endif %}
 {% endif %}
 
-<link rel="canonical" href="{{ canonical_url }}">
+<link rel="canonical" href="{{ canonical_url | escape_once }}">
+<link rel="describedby" href="{{ '/llms.txt' | relative_url }}">
 
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
@@ -121,21 +122,60 @@
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
 
+{% if page.profile_page %}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    {% if site.social.type == "Organization" %}
-      "@type": "Organization",
-      "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-      "logo": {{ site_og_image | jsonify }}{% endif %}
-    {% else %}
+    "@type": "ProfilePage",
+    "url": {{ canonical_url | jsonify }},
+    "inLanguage": {{ site.locale | jsonify }},
+    "mainEntity": {
       "@type": "Person",
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "url": {{ '/' | absolute_url |jsonify }}{% if site.social.links %},
-      "sameAs": {{ site.social.links | jsonify }}{% endif %}
-    {% endif %}
+      "@id": {{ profile_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "alternateName": {{ site.name | jsonify }},
+      "url": {{ profile_url | jsonify }},
+      "sameAs": {{ site.social.links | jsonify }}
+    }
   }
 </script>
+{% elsif page.collection == 'posts' %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": {{ canonical_url | jsonify }},
+    "mainEntityOfPage": {{ canonical_url | jsonify }},
+    "headline": {{ page.title | markdownify | strip_html | strip | jsonify | replace: '<', '\u003c' }},
+    "inLanguage": {{ site.locale | jsonify }},
+    "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+    {% if page.last_modified_at %}
+    "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+    {% endif %}
+    {% if page.naver_url %}
+    "isBasedOn": {{ page.naver_url | jsonify }},
+    {% endif %}
+    "author": {
+      "@type": "Person",
+      "name": {{ author.name | default: author | jsonify | replace: '<', '\u003c' }}{% unless post_author %},
+      "@id": {{ profile_id | jsonify }},
+      "url": {{ profile_url | jsonify }}{% endunless %}
+    }
+  }
+</script>
+{% elsif page.url == '/' or page.url == '/index.html' %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": {{ canonical_url | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "inLanguage": {{ site.locale | jsonify }},
+    "author": { "@id": {{ profile_id | jsonify }} }
+  }
+</script>
+{% endif %}
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

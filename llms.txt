@@ -1,0 +1,15 @@
+---
+layout: null
+sitemap: false
+---
+# rage147의 블로그
+
+> rage147(rage 147)이 프로그래밍, 개인 프로젝트, 자전거 여행과 창작을 기록하는 한국어 블로그입니다.
+
+## 작성자와 공개 기록
+
+- [작성자 소개]({{ '/about/' | absolute_url }}): rage147의 공개 프로필과 대표 작업물.
+- [GitHub](https://github.com/rage147-OwO): 공개 프로젝트와 소스 코드.
+- [네이버 블로그](https://blog.naver.com/rage147-owo): 글의 원본 발행처.
+- [연도별 글 모아보기]({{ '/year-archive/' | absolute_url }}): 공개 글의 제목, 날짜, 링크.
+- [사이트맵]({{ '/sitemap.xml' | absolute_url }}): 이 블로그의 공개 페이지 URL 목록.

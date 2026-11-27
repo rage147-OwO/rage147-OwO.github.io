@@ -20,6 +20,8 @@ foo:
 
 # main links
 main:
+  - title: "작성자 소개"
+    url: /about/
 
 # documentation links
 docs:

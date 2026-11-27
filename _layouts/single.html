@@ -52,6 +52,9 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
+        {% if page.collection == 'posts' and page.naver_url %}
+          <p class="page__meta"><a href="{{ page.naver_url | escape }}">네이버 원문 보기</a></p>
+        {% endif %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
