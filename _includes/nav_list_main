@@ -1,7 +1,6 @@
 <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
 
 {% assign sum = site.posts | size %}
-{% assign nav_categories = site.categories %}
 
 <nav class="nav__list">
     <input id="ac-toc" name="accordion-toc" type="checkbox" />
@@ -9,249 +8,283 @@
     <ul class="nav__items" id="category_tag_menu">
         <!--전체 글 수-->
         <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</span> <span
-                    style="font-family:'Coming Soon';">{{ sum }}</span> <span
-                        style="font-family:'Cafe24Oneprettynight';">개</span>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span
+                    style="font-family:'Coming Soon';">{{sum}}</style> <span
+                        style="font-family:'Cafe24Oneprettynight';">개</style>
         </li>
         <li>
             <span class="nav__sub-title">카테고리</span>
 
 <ul>
-{% assign category_count = nav_categories["2019JajeongeoGugtojongju"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/2019JajeongeoGugtojongju" class="">2019 자전거 국토종주 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "2019JajeongeoGugtojongju" %}
+<li><a href="/categories/2019JajeongeoGugtojongju" class="">2019 자전거 국토종주 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["2019JajeongeoGugtojongju"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/2019JajeongeoGugtojongju" class="">2019JajeongeoGugtojongju ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "2019JajeongeoGugtojongju" %}
+<li><a href="/categories/2019JajeongeoGugtojongju" class="">2019JajeongeoGugtojongju ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["2023OtobaiYeohaeng"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/2023OtobaiYeohaeng" class="">2023 오토바이 여행 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "2023OtobaiYeohaeng" %}
+<li><a href="/categories/2023OtobaiYeohaeng" class="">2023 오토바이 여행 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["2024IlbonJajeongeoYeohaeng"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/2024IlbonJajeongeoYeohaeng" class="">2024 일본 자전거 여행 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "2024IlbonJajeongeoYeohaeng" %}
+<li><a href="/categories/2024IlbonJajeongeoYeohaeng" class="">2024 일본 자전거 여행 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["2026"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/2026" class="">2026 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "2026" %}
+<li><a href="/categories/2026" class="">2026 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["AI"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/AI" class="">AI ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "AI" %}
+<li><a href="/categories/AI" class="">AI ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Aenimeisyeon"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Aenimeisyeon" class="">Aenimeisyeon ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Aenimeisyeon" %}
+<li><a href="/categories/Aenimeisyeon" class="">Aenimeisyeon ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["C"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/C" class="">C ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "C" %}
+<li><a href="/categories/C" class="">C ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["C"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/C" class="">C++ ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "C" %}
+<li><a href="/categories/C" class="">C++ ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Gaeinpeurojegteu"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Gaeinpeurojegteu" class="">Gaeinpeurojegteu ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Gaeinpeurojegteu" %}
+<li><a href="/categories/Gaeinpeurojegteu" class="">Gaeinpeurojegteu ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Geim"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Geim" class="">Geim ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Geim" %}
+<li><a href="/categories/Geim" class="">Geim ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Jajeongeo"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Jajeongeo" class="">Jajeongeo ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Jajeongeo" %}
+<li><a href="/categories/Jajeongeo" class="">Jajeongeo ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["UdonGraphgangjwa"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/UdonGraphgangjwa" class="">UdonGraphgangjwa ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "UdonGraphgangjwa" %}
+<li><a href="/categories/UdonGraphgangjwa" class="">UdonGraphgangjwa ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["UdonGraphgangjwa"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/UdonGraphgangjwa" class="">UdonGraph강좌 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "UdonGraphgangjwa" %}
+<li><a href="/categories/UdonGraphgangjwa" class="">UdonGraph강좌 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["UdonSharpgangjwa"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/UdonSharpgangjwa" class="">UdonSharpgangjwa ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "UdonSharpgangjwa" %}
+<li><a href="/categories/UdonSharpgangjwa" class="">UdonSharpgangjwa ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["UdonSharpgangjwa"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/UdonSharpgangjwa" class="">UdonSharp강좌 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "UdonSharpgangjwa" %}
+<li><a href="/categories/UdonSharpgangjwa" class="">UdonSharp강좌 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["UdonSharpyeje"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/UdonSharpyeje" class="">UdonSharp예제 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "UdonSharpyeje" %}
+<li><a href="/categories/UdonSharpyeje" class="">UdonSharp예제 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Udongwanryeongeul"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Udongwanryeongeul" class="">Udon관련글 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Udongwanryeongeul" %}
+<li><a href="/categories/Udongwanryeongeul" class="">Udon관련글 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["VRchat"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/VRchat" class="">VRchat ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "VRchat" %}
+<li><a href="/categories/VRchat" class="">VRchat ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Gamseongmasjib"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Gamseongmasjib" class="">감성맛집 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Gamseongmasjib" %}
+<li><a href="/categories/Gamseongmasjib" class="">감성맛집 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Gaeinpeurojegteu"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Gaeinpeurojegteu" class="">개인프로젝트 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Gaeinpeurojegteu" %}
+<li><a href="/categories/Gaeinpeurojegteu" class="">개인프로젝트 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Geim"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Geim" class="">게임 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Geim" %}
+<li><a href="/categories/Geim" class="">게임 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Geumyung"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Geumyung" class="">금융 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Geumyung" %}
+<li><a href="/categories/Geumyung" class="">금융 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Naedonnaesan"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Naedonnaesan" class="">내돈내산 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Naedonnaesan" %}
+<li><a href="/categories/Naedonnaesan" class="">내돈내산 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Dareunpeurojegteugugyeong"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Dareunpeurojegteugugyeong" class="">다른프로젝트구경 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Dareunpeurojegteugugyeong" %}
+<li><a href="/categories/Dareunpeurojegteugugyeong" class="">다른프로젝트구경 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Deurama"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Deurama" class="">드라마 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Deurama" %}
+<li><a href="/categories/Deurama" class="">드라마 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Memo"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Memo" class="">메모 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Memo" %}
+<li><a href="/categories/Memo" class="">메모 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Baikeu"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Baikeu" class="">바이크 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Baikeu" %}
+<li><a href="/categories/Baikeu" class="">바이크 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Aenimeisyeon"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Aenimeisyeon" class="">애니메이션 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Aenimeisyeon" %}
+<li><a href="/categories/Aenimeisyeon" class="">애니메이션 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Yeonghwa"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Yeonghwa" class="">영화 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Yeonghwa" %}
+<li><a href="/categories/Yeonghwa" class="">영화 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Yori"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Yori" class="">요리 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Yori" %}
+<li><a href="/categories/Yori" class="">요리 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Eumag"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Eumag" class="">음악 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Eumag" %}
+<li><a href="/categories/Eumag" class="">음악 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Jajeongeo"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Jajeongeo" class="">자전거 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Jajeongeo" %}
+<li><a href="/categories/Jajeongeo" class="">자전거 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 
 <ul>
-{% assign category_count = nav_categories["Keomgong"] | size %}
-{% if category_count > 0 %}
-<li><a href="/categories/Keomgong" class="">컴공 ({{ category_count }})</a></li>
+{% for category in site.categories %}
+{% if category[0] == "Keomgong" %}
+<li><a href="/categories/Keomgong" class="">컴공 ({{category[1].size}})</a></li>
 {% endif %}
+{% endfor %}
 </ul>
 </li>
 </ul>
