@@ -2,7 +2,7 @@
 title: "ARM TrustZone (트러스트 존)"
 date: 2025-12-16
 categories:
- - Keomgong
+ - "Keomgong"
 naver_url: https://blog.naver.com/rage147-owo/224112144386
 ---
 

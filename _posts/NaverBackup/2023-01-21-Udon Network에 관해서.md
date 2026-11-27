@@ -2,7 +2,7 @@
 title: "Udon Network에 관해서"
 date: 2023-01-21
 categories:
- - Udongwanryeongeul
+ - "Udongwanryeongeul"
 naver_url: https://blog.naver.com/rage147-owo/222990230516
 ---
 

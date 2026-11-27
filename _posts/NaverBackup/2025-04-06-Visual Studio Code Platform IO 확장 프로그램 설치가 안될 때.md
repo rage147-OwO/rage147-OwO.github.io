@@ -2,7 +2,7 @@
 title: "Visual Studio Code Platform IO 확장 프로그램 설치가 안될 때"
 date: 2025-04-06
 categories:
- - Memo
+ - "Memo"
 naver_url: https://blog.naver.com/rage147-owo/223824322578
 ---
 

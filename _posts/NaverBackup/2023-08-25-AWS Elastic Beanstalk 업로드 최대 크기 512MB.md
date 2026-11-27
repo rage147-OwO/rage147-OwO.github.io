@@ -2,7 +2,7 @@
 title: "AWS Elastic Beanstalk 업로드 최대 크기 512MB"
 date: 2023-08-25
 categories:
- - Memo
+ - "Memo"
 naver_url: https://blog.naver.com/rage147-owo/223193323918
 ---
 

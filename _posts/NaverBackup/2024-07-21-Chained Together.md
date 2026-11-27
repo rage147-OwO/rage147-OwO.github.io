@@ -2,7 +2,7 @@
 title: "Chained Together"
 date: 2024-07-21
 categories:
- - Geim
+ - "Geim"
 naver_url: https://blog.naver.com/rage147-owo/223520407566
 ---
 

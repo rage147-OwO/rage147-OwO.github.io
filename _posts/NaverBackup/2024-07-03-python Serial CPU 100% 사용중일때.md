@@ -2,7 +2,7 @@
 title: "python Serial CPU 100% 사용중일때"
 date: 2024-07-03
 categories:
- - AI
+ - "AI"
 naver_url: https://blog.naver.com/rage147-owo/223500050317
 ---
 

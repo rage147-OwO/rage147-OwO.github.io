@@ -2,7 +2,7 @@
 title: "INTP X ISTP"
 date: 2026-07-29
 categories:
- - 2026
+ - "2026"
 naver_url: https://blog.naver.com/rage147-owo/224361213459
 ---
 

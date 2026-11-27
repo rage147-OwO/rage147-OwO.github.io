@@ -2,7 +2,7 @@
 title: "시차 (Time Lag) - 모트 (Motte)"
 date: 2023-09-06
 categories:
- - Eumag
+ - "Eumag"
 naver_url: https://blog.naver.com/rage147-owo/223203775134
 ---
 

@@ -2,7 +2,7 @@
 title: "AWS Elastic Beanstalk Error"
 date: 2023-08-25
 categories:
- - Memo
+ - "Memo"
 naver_url: https://blog.naver.com/rage147-owo/223193464263
 ---
 

@@ -2,7 +2,7 @@
 title: "VRChat Udon Sharp 강의 - 네트워킹 메모"
 date: 2024-03-24
 categories:
- - UdonSharpgangjwa
+ - "UdonSharpgangjwa"
 naver_url: https://blog.naver.com/rage147-owo/223393941917
 ---
 

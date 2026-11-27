@@ -2,7 +2,7 @@
 title: "VRchat OX퀴즈 월드 코드(udonsharp)"
 date: 2021-09-27
 categories:
- - UdonSharpyeje
+ - "UdonSharpyeje"
 naver_url: https://blog.naver.com/rage147-owo/222518478794
 ---
 
@@ -632,7 +632,7 @@ if (time_temp < 5)//4초 이내
 
 udonsharp.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618eeed0e9097108a7f503e363/EFsQbLdDxrjO9d1YLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7f-_CIAOzUpz0UqPblTs0i0M775lJNVDv4Y71wP5IQ/udonsharp.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618fe2d1ef087007a6fd0ae067/EFsQbLdDxrjO9d1YLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7f-_CIAOzUpz0UqPblTs0i0M775lJNVDv4Y71wP5IQ/udonsharp.cs)
 
 메인입니다!
 
@@ -640,7 +640,7 @@ udonsharp.cs
 
 teleport.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618eeed0e9097108a7f503e363/EFsQbLdDxrjO9tJQLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7va2CoEOjSx50iK0blTspTzHUstLPhuGXGqax7EwYg/teleport.cs)
+[파일 다운로드](https://download.blog.naver.com/open/74e168dbc095904c618fe2d1ef087007a6fd0ae067/EFsQbLdDxrjO9tJQLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm7va2CoEOjSx50iK0blTspTzHUstLPhuGXGqax7EwYg/teleport.cs)
 
 텔레포트입니다!
 
@@ -648,7 +648,7 @@ teleport.cs
 
 reset.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416c83e3dde4047c05aaf80eee92/EFsQbLdDxrjO9Ns2E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0i7fq2D-9n0C9_3Q2dUkR0YexoTz9vDBsW3vxf-rlN/reset.cs)
+[파일 다운로드](https://download.blog.naver.com/open/79ec65d5c49b9d416c82efdce2057d0aabf007ed92/EFsQbLdDxrjO9Ns2E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0i7fq2D-9n0C9_3Q2dUkR0YexoTz9vDBsW3vxf-rlN/reset.cs)
 
 리셋 큐브입니다!
 
@@ -656,7 +656,7 @@ reset.cs
 
 checkpeople.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103dd2b28cb5552d54fba95fbf6b/EFsQbLdDxrjO9d5dLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm6fm8CIEO4ilF3UKtblTsaxzTyEtgTof1Ir7FkwnDjQ/checkpeople.cs)
+[파일 다운로드](https://download.blog.naver.com/open/28bd348790c5cc103dd3be8db3542c5bfaa156bc67/EFsQbLdDxrjO9d5dLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm6fm8CIEO4ilF3UKtblTsaxzTyEtgTof1Ir7FkwnDjQ/checkpeople.cs)
 
 플레이어 수를 세는 코드입니다!(콜라이더)
 
@@ -666,7 +666,7 @@ checkpeople.cs
 
 music.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361bf494aa93730b72dd8f799974/EFsQbLdDxrjO9dhYLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUn6_y2CoAO_W8n7E-JblTs1hca2Wu6zY3jKZhkYQ5SCQ/music.cs)
+[파일 다운로드](https://download.blog.naver.com/open/0e9b12a1bbefea361bf598ab95720a7ddc87709a74/EFsQbLdDxrjO9dhYLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUn6_y2CoAO_W8n7E-JblTs1hca2Wu6zY3jKZhkYQ5SCQ/music.cs)
 
 음악을 키고 끄는 기능입니다
 
@@ -674,7 +674,7 @@ music.cs
 
 soundeffect.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577a95f5cbf2126a13bcee18f8eb/EFsQbLdDxrjO9dxbLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm5Pe8CIQO-l9_0D2yblTshLr3US_Zg3ENqtYu5BNgkw/soundeffect.cs)
+[파일 다운로드](https://download.blog.naver.com/open/6ffa73c3d38d8b577a94f9caf4136b1cbde611faee/EFsQbLdDxrjO9dxbLuoSggWaFwbSq-BqZAdRcjho_gMuGoi5UHUm5Pe8CIQO-l9_0D2yblTshLr3US_Zg3ENqtYu5BNgkw/soundeffect.cs)
 
 배경 음악입니다
 
@@ -682,6 +682,6 @@ soundeffect.cs
 
 mirror.cs
 
-[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e33dcbc82bb5b235af5a751b160/EFsQbLdDxrjO9d82E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0h7vm7D-9h1FNczUOdUkTQBXBNCP5ekCX9yNwkGoT7/mirror.cs)
+[파일 다운로드](https://download.blog.naver.com/open/26b33a899fc7c21e33ddb083bd5a2255f4af58b361/EFsQbLdDxrjO9d82E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG428Wn0h7vm7D-9h1FNczUOdUkTQBXBNCP5ekCX9yNwkGoT7/mirror.cs)
 
 거울입니다

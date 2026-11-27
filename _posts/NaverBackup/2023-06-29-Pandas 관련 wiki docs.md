@@ -2,7 +2,7 @@
 title: "Pandas 관련 wiki docs"
 date: 2023-06-29
 categories:
- - AI
+ - "AI"
 naver_url: https://blog.naver.com/rage147-owo/223141893798
 ---
 

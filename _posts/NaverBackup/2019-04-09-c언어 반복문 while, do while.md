@@ -2,7 +2,7 @@
 title: "c언어 반복문 while, do while"
 date: 2019-04-09
 categories:
- - C
+ - "C"
 naver_url: https://blog.naver.com/rage147-owo/221509095399
 ---
 

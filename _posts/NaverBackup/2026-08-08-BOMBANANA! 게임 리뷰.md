@@ -2,7 +2,7 @@
 title: "BOMBANANA! 게임 리뷰"
 date: 2026-08-08
 categories:
- - Geim
+ - "Geim"
 naver_url: https://blog.naver.com/rage147-owo/224371618944
 ---
 

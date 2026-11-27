@@ -2,7 +2,7 @@
 title: "Django URL 패턴과 i18n: path의 숨겨진 국제화 기능"
 date: 2025-04-06
 categories:
- - Memo
+ - "Memo"
 naver_url: https://blog.naver.com/rage147-owo/223824321425
 ---
 

@@ -2,7 +2,7 @@
 title: "비주얼 스튜디오 char scanf scanf_s 오류"
 date: 2019-03-20
 categories:
- - C
+ - "C"
 naver_url: https://blog.naver.com/rage147-owo/221493156667
 ---
 

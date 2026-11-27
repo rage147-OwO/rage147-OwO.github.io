@@ -2,7 +2,7 @@
 title: "SKT FLY AI 2기 [AI 비전과 챗봇을 활용한 아동심리분석 에이닷 확장 서비스] 프로젝트 구경하기"
 date: 2023-05-28
 categories:
- - Dareunpeurojegteugugyeong
+ - "Dareunpeurojegteugugyeong"
 naver_url: https://blog.naver.com/rage147-owo/223114128209
 ---
 

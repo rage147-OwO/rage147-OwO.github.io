@@ -2,7 +2,7 @@
 title: "Logtech mouse onboard media key Settring for G102"
 date: 2023-07-26
 categories:
- - Geim
+ - "Geim"
 naver_url: https://blog.naver.com/rage147-owo/223166528939
 ---
 

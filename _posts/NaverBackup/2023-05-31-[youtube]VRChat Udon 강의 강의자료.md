@@ -2,7 +2,7 @@
 title: "[youtube]VRChat Udon 강의 강의자료"
 date: 2023-05-31
 categories:
- - UdonGraphgangjwa
+ - "UdonGraphgangjwa"
 naver_url: https://blog.naver.com/rage147-owo/223116511946
 ---
 

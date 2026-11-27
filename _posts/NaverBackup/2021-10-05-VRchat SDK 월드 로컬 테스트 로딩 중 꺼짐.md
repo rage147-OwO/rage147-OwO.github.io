@@ -2,7 +2,7 @@
 title: "VRchat SDK 월드 로컬 테스트 로딩 중 꺼짐"
 date: 2021-10-05
 categories:
- - VRchat
+ - "VRchat"
 naver_url: https://blog.naver.com/rage147-owo/222527879082
 ---
 

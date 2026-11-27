@@ -2,7 +2,7 @@
 title: "sentimental emotion"
 date: 2026-01-17
 categories:
- - 2026
+ - "2026"
 naver_url: https://blog.naver.com/rage147-owo/224150302634
 ---
 

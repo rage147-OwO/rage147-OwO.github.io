@@ -2,7 +2,7 @@
 title: "Vrchat Udon 월드 총"
 date: 2021-09-28
 categories:
- - UdonSharpyeje
+ - "UdonSharpyeje"
 naver_url: https://blog.naver.com/rage147-owo/222519074141
 ---
 
@@ -28,7 +28,7 @@ naver_url: https://blog.naver.com/rage147-owo/222519074141
 
 TeleportGun.unitypackage
 
-[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311cf393ad94740c75da81789568/EFsQbLdDxrfO_t02E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG4K8Un0m7f24Ce9p-ixH7TOdRFn2_BkR0BhfQyr4gXfRaISC9-o575DqDGelEQ/TeleportGun.unitypackage)
+[파일 다운로드](https://download.blog.naver.com/open/099c15a6bdeded311cf29fac92750d7ad481799c79/EFsQbLdDxrfO_t02E-QRigSVEg-Y4Oh1JAZRcDAPkAQrG4K8Un0m7f24Ce9p-ixH7TOdRFn2_BkR0BhfQyr4gXfRaISC9-o575DqDGelEQ/TeleportGun.unitypackage)
 
 ![](https://raw.githubusercontent.com/rage147-OwO/rage147-OwO.github.io/master/_images/222519074141/e0a45244cf7e.png)
 

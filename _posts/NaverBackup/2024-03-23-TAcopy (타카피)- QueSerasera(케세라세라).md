@@ -2,7 +2,7 @@
 title: "TAcopy (타카피)- QueSerasera(케세라세라)"
 date: 2024-03-23
 categories:
- - Eumag
+ - "Eumag"
 naver_url: https://blog.naver.com/rage147-owo/223393044561
 ---
 

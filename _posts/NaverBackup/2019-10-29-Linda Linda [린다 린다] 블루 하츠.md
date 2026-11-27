@@ -2,7 +2,7 @@
 title: "Linda Linda [린다 린다] 블루 하츠"
 date: 2019-10-29
 categories:
- - Eumag
+ - "Eumag"
 naver_url: https://blog.naver.com/rage147-owo/221692066761
 ---
 

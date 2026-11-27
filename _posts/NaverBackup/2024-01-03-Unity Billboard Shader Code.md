@@ -2,7 +2,7 @@
 title: "Unity Billboard Shader Code"
 date: 2024-01-03
 categories:
- - VRchat
+ - "VRchat"
 naver_url: https://blog.naver.com/rage147-owo/223310722075
 ---
 

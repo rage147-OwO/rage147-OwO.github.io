@@ -2,7 +2,7 @@
 title: "Stereo Vision"
 date: 2023-12-21
 categories:
- - Keomgong
+ - "Keomgong"
 naver_url: https://blog.naver.com/rage147-owo/223298937438
 ---
 

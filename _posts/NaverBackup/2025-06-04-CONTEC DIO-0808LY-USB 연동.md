@@ -2,7 +2,7 @@
 title: "CONTEC DIO-0808LY-USB 연동"
 date: 2025-06-04
 categories:
- - Memo
+ - "Memo"
 naver_url: https://blog.naver.com/rage147-owo/223888410693
 ---
 
